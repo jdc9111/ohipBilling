@@ -147,11 +147,11 @@ li {
 }
 
 .blackBackground {
-  background-color: black;
+  background-color: rgb(44, 39, 39);
   color: white;
 }
 .redBackground {
-  background-color: red;
+  background-color: rgb(201, 84, 84);
   color: white;
 }
 .box {
@@ -198,4 +198,8 @@ li {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.smallLogo {
+  max-height: 2rem;
 }
