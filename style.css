@@ -9,6 +9,9 @@ body {
   background-color: white;
 }
 
+.logo {
+  max-width: 5vw;
+}
 .highlight {
   background-color: yellow;
 }
@@ -56,8 +59,8 @@ body {
   margin-top: 50px;
   padding: 25px;
   text-align: center;
-  font-size: 30px;
 }
+
 .headerLogo {
   width: 150px;
 }
