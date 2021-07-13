@@ -125,7 +125,8 @@ li {
 }
 
 .icon {
-  width: 70px;
+  width: 25px;
+  vertical-align: middle;
 }
 
 .greenBackground {
@@ -215,4 +216,17 @@ li {
 
 .moon {
   width: 20px;
+}
+
+.infoSection {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  vertical-align: middle;
+}
+
+.info {
+  color: black;
+  background-color: rgb(223, 223, 79);
+  font-size: small;
+  border-radius: 3px;
 }
