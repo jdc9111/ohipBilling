@@ -146,6 +146,15 @@ li {
   border-radius: 4px;
 }
 
+.orangeBackground {
+  background-color: #ee9a3a;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
+}
+
 .blackBackground {
   background-color: rgb(44, 39, 39);
   color: white;
@@ -202,4 +211,8 @@ li {
 
 .smallLogo {
   max-height: 2rem;
+}
+
+.moon {
+  width: 20px;
 }
