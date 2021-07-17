@@ -128,8 +128,9 @@ li {
 }
 
 .icon {
-  width: 25px;
+  width: 28px;
   vertical-align: middle;
+  padding-left: 6px;
 }
 
 .greenBackground {
@@ -225,6 +226,13 @@ li {
   margin-top: 1rem;
   margin-bottom: 1rem;
   vertical-align: middle;
+
+  background-color: rgba(148, 144, 144, 0.411);
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: small;
 }
 
 .info {
