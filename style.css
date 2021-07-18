@@ -136,27 +136,18 @@ li {
 .greenBackground {
   background-color: #6fe07e;
   color: white;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
   border-radius: 4px;
 }
 
 .yellowBackground {
   background-color: #ffff00;
   color: black;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
   border-radius: 4px;
 }
 
 .orangeBackground {
   background-color: #ee9a3a;
   color: white;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
   border-radius: 4px;
 }
 
@@ -169,49 +160,18 @@ li {
   color: white;
 }
 .box {
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 0px 5px 5px;
+}
+
+.solidbox {
   border-style: solid;
   border-width: 1px;
   border-color: black;
   border-radius: 4px;
   margin-top: 5px;
   padding: 5px 0px 5px 5px;
-}
-
-/*tooltip code */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 200px;
-  background-color: rgb(236, 236, 2);
-  color: black;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: rgb(226, 226, 13) transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 
 .smallLogo {
@@ -241,6 +201,6 @@ li {
   border-radius: 3px;
 }
 
-#H1x3 {
-  padding-top: vh20;
+#moreInfo {
+  margin-top: 8rem;
 }
