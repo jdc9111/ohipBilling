@@ -128,9 +128,10 @@ li {
 }
 
 .icon {
-  width: 28px;
+  width: 35px;
   vertical-align: middle;
   padding-left: 6px;
+  padding-right: 6px;
 }
 
 .greenBackground {
@@ -187,7 +188,7 @@ li {
 .infoSection {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  margin-right: 0.25rem;
+  /*margin-right: 0.25rem;*/
   vertical-align: middle;
 
   background-color: rgba(148, 144, 144, 0.411);
