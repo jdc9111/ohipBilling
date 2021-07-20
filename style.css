@@ -107,8 +107,15 @@ ul {
 }
 
 li {
-  //*margin: 10px 0px;**/
+  /*margin: 10px 0px;**/
   padding-left: 10px;
+}
+
+ul.subtext {
+  padding-left: 0px;
+  font-size: small;
+  margin-left: 4rem;
+  list-style-type: square;
 }
 
 .small-logo {
