@@ -119,7 +119,7 @@ ul.subtext {
 }
 
 .small-logo {
-  width: 30px;
+  width: 200px;
 }
 
 .footer {
@@ -215,4 +215,28 @@ ul.subtext {
 
 #moreInfo {
   margin-top: 8rem;
+}
+
+.diagnosticCodes {
+  background-color: white;
+  color: black;
+}
+
+.diagnosticCodes h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.diagnosticCodes .accordion-item {
+  background-color: rgb(33, 33, 36);
+  color: white;
+}
+#diagnosticCodes {
+  color: rgb(38, 38, 39);
+}
+
+.diagnosisButton {
+  border: none;
+  padding: 0;
+  background: none;
 }
