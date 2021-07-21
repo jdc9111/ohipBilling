@@ -241,5 +241,6 @@ ul.subtext {
 }
 
 #erCodes {
-  width: 9rem;
+  width: 18rem;
+  padding-bottom: 1rem;
 }
