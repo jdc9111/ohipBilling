@@ -56,8 +56,11 @@ body {
 }
 
 .header {
-  margin-top: 3vh;
+  padding-top: 4rem;
   text-align: center;
+  background-color: lightslategray;
+  padding-bottom: 3rem;
+  color: white;
 }
 
 .headerLogo {
@@ -227,7 +230,7 @@ ul.subtext {
 }
 
 .diagnosticCodes .accordion-item {
-  background-color: rgb(124, 124, 131);
+  background-color: lightslategray
   color: white;
 }
 #diagnosticCodes {
