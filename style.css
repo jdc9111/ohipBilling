@@ -56,10 +56,10 @@ body {
 }
 
 .header {
-  padding-top: 4rem;
+  padding-top: 2rem;
   text-align: center;
   background-color: lightslategray;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   color: white;
 }
 
@@ -244,6 +244,6 @@ ul.subtext {
 }
 
 #erCodes {
-  width: 14rem;
+  width: 22rem;
   padding-bottom: 1rem;
 }
