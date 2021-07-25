@@ -36,7 +36,7 @@
         <h4 class="accordion-title">Assessment Codes</h4>
         <ul class="accordion-answer">
           <div class="greenBackground box">
-          <li><b>Weekdays 0800-1700</b></li>
+          <li><h4>Weekdays 0800-1700</h4></li>
           <li>H101 - minor asses $16.55</li>
           <li>H102 - full assess $41.65</li>
           <li>H103 - multi-sys asses $39.35</li>
@@ -103,7 +103,9 @@
               <li><b>E413</b> - <span class="blackBackground">Nights 2400-0800h + 40%</span><img class="icon" src="images/moon.png"><li>
             </div>
           <br>
-          <li><b>E420</b> - Trauma Premium +50%<a href="#E420"><img class="icon"src="images/info.svg"></a></li>
+          <li><b>E420</b> - Trauma Premium +50%<button class="btn" data-target="#E420"><img class="icon"src="images/info.svg"></button></li>
+
+         
     
       </div>
 
@@ -1022,21 +1024,7 @@
 
       
 
-      <div class="box infoSection" id="moreInfo">
-        <div id="H1x3">
-          <h4>H_X</h4>
-          
-          <br>
-        </div>
-  
-        <div id="E420">
-          <h4>E420</h4>
-          <p>For trauma patients age 16 or more who have an Injury Severity Score
-            <b>(ISS) of greater than 15</b>, or for <b>pediatric</b> patients less than age 16 who have an
-            Injury Severity Score of <b>greater than 12</b></p>      
-        </div>
 
-      </div>
 
       <div class="footer">
         <h2>About Us</h2>
@@ -1062,22 +1050,32 @@
     <button class="btn close-modal">&times;</button>
   </div>
   <div class="body">
-    <p>Max 3/pt/day</p>
-    <p>Must be 2h apart and not disposition making.</p>
+    <ul class="subtext">
+    <li>Max 3/pt/day</li>
+    <li>Must be 2h apart and not disposition making.</li>
   </div>
 </div>
-<div class="modal" id="modal2">
+
+<div class="modal" id="E420">
   <div class="header">
-    <div class="title">Second Modal</div>
+    <div class="modal-title">E420</div>
     <button class="btn close-modal">&times;</button>
   </div>
   <div class="body">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ea
-    officia consectetur. Laborum, dolor? Assumenda quo corrupti eveniet
-    velit fugit fugiat odit, dolorum labore obcaecati quia. Commodi
-    assumenda sed maxime!
+    <ul class="subtext">
+    <p>The premium is applicable when all of the following occur:</p>
+      <ul class="modal-list">
+        <li>ISS > 15 when the patient is 16 years of age or older;</li>
+        <li>ISS > 12 when the patient is less than 16 years old</li>
+        <li>ISS is recoded on the chart</li>
+      </ul>
+    <br>
+    <p><a href="https://www.mdcalc.com/injury-severity-score-iss">MD Calc ISS Calculator</a></p>
   </div>
 </div>
+
+
+
 
 <div id="overlay"></div>
 
