@@ -55,7 +55,7 @@ body {
   width: 200px;
 }
 
-.header {
+.title {
   padding-top: 2rem;
   text-align: center;
   background-color: lightslategray;
@@ -64,7 +64,7 @@ body {
 }
 
 .headerLogo {
-  width: 150px;
+  width: 50vw;
 }
 
 .title {
@@ -237,6 +237,14 @@ ul.subtext {
   color: rgb(38, 38, 39);
 }
 
+/*
+button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+*/
+
 .diagnosisButton {
   border: none;
   padding: 0;
@@ -246,4 +254,8 @@ ul.subtext {
 #erCodes {
   width: 22rem;
   padding-bottom: 1rem;
+}
+
+.row {
+  display: flex;
 }
