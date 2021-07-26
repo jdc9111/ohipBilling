@@ -32,7 +32,7 @@
         <h4 class="accordion-title">Assessment Codes</h4>
         <ul class="accordion-answer">
           <div class="greenBackground box">
-            <li><h4>Weekdays 0800-1700</h4></li>
+            <li><h4>Weekdays 08-17h</h4></li>
             <li>H101 - minor asses $16.55</li>
             <li>H102 - full assess $41.65</li>
             <li>H103 - multi-sys asses $39.35</li>
@@ -40,7 +40,7 @@
           </div>
 
           <div class="yellowBackground box">
-            <li><h4>Weekday Eve 1700-2400</h4></li>
+            <li><h4>Weekday Eve 17-24h</h4></li>
             <li>H131 - minor asses $20.65</li>
             <li>H132 - full assess $51.85</li>
             <li>H133 - multi-sys asses $46.80</li>
@@ -48,7 +48,7 @@
           </div>
 
           <div class="redBackground box">
-            <li><h4>Weekend & Holiday 0800-2400</h4></li>
+            <li><h4>Weekend & Holiday 08-24h</h4></li>
             <li>H151 - minor $25.50</li>
             <li>H152 - full assess $63.30</li>
             <li>H153 - multi $56.95</li>
@@ -56,7 +56,7 @@
           </div>
 
           <div class="blackBackground box">
-            <li><h4>Night 2400-0800h<img src="images/moon.png" class="icon"></h4></li>
+            <li><h4>Night 24-08h<img src="images/moon.png" class="icon"></h4></li>
             <li>H121 - minor $30.60</li>
             <li>H122 - full assess $76.70</li>
             <li>H123 - multi $67.75</li>
@@ -88,7 +88,7 @@
           <div class="solidbox">
             <li><b>For G & K codes (not H)</b></li>
               <ul>
-                <li><b>H112</b> - <span class="blackBackground">Nights 2400-0800h $34.20</span><img class="icon" src="images/moon.png"><li>
+                <li><b>H112</b> - <span class="blackBackground">Nights 24-08h $34.20</span><img class="icon" src="images/moon.png"><li>
                 <li><b>H113</b> - Sat/Sunday/Holiday 0800-2400h $19.80</li>
               <ul>
           </div>
@@ -96,7 +96,7 @@
             <div class="solidbox">
               <li><h4>For Procedures</h4><li>
               <li><b>E412</b> - Evenings & Weekends + 20%<li>
-              <li><b>E413</b> - <span class="blackBackground">Nights 2400-0800h + 40%</span><img class="icon" src="images/moon.png"><li>
+              <li><b>E413</b> - <span class="blackBackground">Nights 24-08h + 40%</span><img class="icon" src="images/moon.png"><li>
             </div>
           <br>
           <li><b>E420</b> - Trauma Premium +50%<button class="btn" data-target="#E420"><img class="icon"src="images/info.svg"></button></li>
@@ -145,26 +145,19 @@
         <h4 class="accordion-title">Consults / CritiCall</h4>
         <ul class="accordion-answer">
           <div class="solidbox">
-            <li>H055 - Consult (<b>CCFP</b>) $74.25</li>
-            <li>H065 - Consult (<b>FRCP</b>) $97.60</li>
+            <li><b>H055</b> - Consult (<b>CCFP</b>) $74.25</li>
+            <li><b>H065</b> - Consult (<b>FRCP</b>) $97.60</li>
           </div>
             
           <div class="solidbox">
-            <h4><img class="icon" src="images/phone.svg"> Phone consult</h4>
+            <h4><img class="icon" src="images/phone.svg"> Phone consult<button class="btn" data-target="#phoneConsult"><img class="icon"src="images/info.svg"></button></h4>
             <li><b>K734</b> - ER MD &#8594 other Consultant $31.35</li>
-              <ul class="subtext">
-                <li>providing advice re mgmt & treatment</li>
-                <li>> 10 mins</li>
-              </ul>
             <li><b>K735</b> - MD &#8594 ER MD $31.35</li>
-            <ul class="subtext">
-              <li>providing advice re mgmt & treatment</li>
-              <li>> 10 mins</li>
-            </ul>
+          
                 
           </div>
           <div class="redBackground box">
-            <h4>CritiCall</h4>
+            <h4><img class="icon" src="images/phone.svg">CritiCall</h4>
             <li>K736 - <b>Referring ER MD</b> $31.35<li>
               <ul class="subtext">
                 <li>max 2/pt/day</li>
@@ -172,7 +165,7 @@
             <li>K737 -  Consultant MD $40.45</li> 
           </div>
 
-          <li>A813 - <b>Midwife</b>-requested assessment $86.60</li>
+          <li><b>A813</b> - <b>Midwife</b>-requested assessment $86.60</li>
         </ul>
       </div>
 
@@ -1069,9 +1062,25 @@
         <li>ISS is recoded on the chart</li>
       </ul>
     <br>
-    <p><a href="https://www.mdcalc.com/injury-severity-score-iss">MD Calc ISS Calculator</a></p>
+    <p><a href="https://www.mdcalc.com/injury-severity-score-iss"><img src="images/link.svg" class="icon">MD Calc ISS Calculator</a></p>
   </div>
 </div>
+
+<div class="modal" id="phoneConsult">
+  <div class="header">
+    <div class="modal-title">Phone Consult</div>
+    <button class="btn close-modal">&times;</button>
+  </div>
+  <div class="body">
+      <ul class="modal-list">
+        <li>providing advice re mgmt & treatment</li>
+        <li>> 10 mins</li>
+        <li>Record start and stop time of discussion</li>
+        <li>If a phone consultation leads to a face to face assessment by the consultant physician either same day or day following the phone consultation, the phone consultation is not a payable service.</li>
+      </ul>
+  </div>
+</div>
+
 
 
 
