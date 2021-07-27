@@ -143,11 +143,11 @@ ul.modal-list {
 }
 
 .icon {
-  width: 35px;
-  vertical-align: middle;
+  width: 30px;
+  vertical-align: text-bottom;
   padding-left: 2px;
   padding-right: 6px;
-  padding-bottom: 4px;
+  padding-bottom: none;
 }
 
 .greenBackground {
