@@ -107,13 +107,13 @@
         <h4 class="accordion-title">Critical Care</h4>
         <ul class="accordion-answer">
           <div class="box redBackground">
-            <li><b>Life Threatening</b></li>
+            <li><h4>Life Threatening<button class="btn" data-target="#G521"><img class="icon"src="images/info.svg"></button></h4></li>
             <li><b>G521</b> - first 15 min $110.55</li>
             <li><b>G523</b> - second 15 min $55.20</li>
             <li><b>G522</b> - every 15 after $36.35</li>
           </div>
           <div class="box orangeBackground">
-            <li><h4>Other Resusc</h4></li> 
+            <li><h4>Other Resusc<button class="btn" data-target="#G395"><img class="icon"src="images/info.svg"></button></h4></li> 
             <li>G395 - first 15 min $56.80</li> 
             <li>G391 - each quarter hour $28.35</li> 
           </div>
@@ -132,7 +132,7 @@
               <ul class="subtext">
                 <li>at their request</li>
               </ul>
-            <li>C933 - EP admists and is  MRP $79.20</li>
+            <li>C933 - EP admitts and is  MRP $79.20</li>
           </div>
         </ul>
       </div>
@@ -214,10 +214,6 @@
             <li>K071 - Acute Home Care supervision x 8 weeks $21.40</li>
             <li>K034 - Reportable disease phone call to Public Health $36.00<button class="btn" data-target="#K034"><img class="icon"src="images/info.svg"></button></li>
             <li>K031 - Completn of Form 1 for Manadatory Blood Test $102.50<button class="btn" data-target="#K031"><img class="icon"src="images/info.svg"></li>
-              <ul class="subtext">
-                <li>Mandatory Blood Testing Act, 2006</li>
-              </ul>
-           
             <li>K035 - MTO Medical condition report $36.3</li>
             <br>
             <div class="infoSection">
@@ -1046,7 +1042,9 @@
   <div class="body">
     <ul class="modal-list">
       <li>Max 3/pt/day</li>
-      <li>Must be 2h apart and not disposition making.</li>
+      <li>Max 2/MD/day</li>
+      <li>Must be 2h apart</li>
+      <li>Must involve a new order other than admission or discharge (ex. Gravol, repeat vitals, walk test, imaging, labs, etc.)</li>
   </div>
 </div>
 
@@ -1090,10 +1088,9 @@
   </div>
   <div class="body">
       <ul class="modal-list">
-        <!--
-        <li>K034 is only eligible for payment when the telephone report is personally rendered by the physician.</li>
-        <li>K034 is only eligible for payment for the following specified reportable diseases: anthrax, botulism, brucellosis, cholera, cryptosporidiosis, cyclosporiasis, diphtheria, primary viral encephalitis, <b>food poisoning (all causes)</b>, symptomatic giardiasis, <b>invasive haemophilus influenzae b disease</b>, hantavirus pulmonary syndrome, hemorrhagic fevers (e.g. ebola, marburg and other viral causes), <b>hepatitis A</b>, lassa fever, legionellosis, listeriosis, <b>measles</b>, <b>acute bacterial meningitis, invasive meningococcal disease</b>, paratyphoid fever, plague, acute poliomyelitis, Q fever, rabies, rubella, Severe Acute Respiratory Syndrome (SARS), shigellosis, smallpox,<b>invasive group A streptococcal infections</b>, tularemia, typhoid fever, verotoxin-producing E. coli infection indicator conditions (e.g. haemolytic-uremic syndrome), <b>west Nile virus illness</b>, and yellow fever.</li>
-        -->
+        <p>K034 is only eligible for payment when the telephone report is personally rendered by the physician.</p>
+        <br>
+        <p><a href="pdfs/phreportable.pdf"><img src="images/link.svg" class="icon">Reportable Diseases</a></p>
       </ul>
   </div>
 </div>
@@ -1105,11 +1102,43 @@
     <button class="btn close-modal">&times;</button>
   </div>
   <div class="body small-text">
-    <p> Bill 105 provides a statutory right to certain applicants (including victims of crime, EMS workers, good Samaritans) to ask a Medical Officer of Health (MOH) for an Order to take a sample of another person’s blood, in order to test for potential exposure to certain communicable diseases, including Hepatitis B, Hepatitis C and HIV.</p>
+    <p> Bill 105 provides a right to certain applicants (including victims of crime, EMS workers, good Samaritans) to ask a Medical Officer of Health (MOH) for an Order to take a sample of another person’s blood, in order to test for potential exposure to certain communicable diseases, including Hepatitis B, Hepatitis C and HIV.</p>
     <br>
     <p>K031 allows physicians to  claim for completing the <a href="pdfs/form-1-physician-report.pdf">Physician Report<img srcset="images/link.svg" class="icon"></a></p>
   </div>
 </div>
+
+<div class="modal" id="G521">
+  <div class="header">
+    <div class="modal-title">G521</div>
+    <button class="btn close-modal">&times;</button>
+  </div>
+  <div class="body small-text">
+    <p>Patient must have a critical illness or injury that acutely impairs one or more vital organs or systems such that imminent life-threatening deterioration is highly probable.</p>
+    <ul class="modal-list">
+      <li>Excludes intubation, lines, defibrillation, cardioversion, ABGs, Foleys, NGTs</li>
+      <li>Does not exclude other procedure codes (fractures, lacerations, etc.)</li>
+    </ul>
+    <p>Ex. STEMI, CHF with intubation or BiPAP, severe sepsis/shock, true anaphylaxis (epi given), status epilepticus, trauma with unstable vitals, croup requiring epi, etc.</p>
+  </div>
+</div>
+
+<div class="modal" id="G395">
+  <div class="header">
+    <div class="modal-title">G395</div>
+    <button class="btn close-modal">&times;</button>
+  </div>
+  <div class="body small-text">
+    <p>Where there is a potential threat to life or limb, physician provides resuscitation in order to address the high probability of loss of limb or requirement for “life threatening” critical care.</p>
+    <ul class="modal-list">
+      <li>Excludes intubation, lines, ABGs, catheters</li>
+      <li>Does not exclude cardioversion, defibrillation, or other procedure codes (fractures, dislocations, lacerations, etc.)</li>
+    </ul>
+    <br>
+    <p><b>Ex. Backboard/collar with imaging, chest pain requiring intervention, abdo pain requiring intervention, head injury requiring CT, OD/intoxication with decreased LOC, extremity requiring immediate reduction, etc.</b></p>
+  </div>
+</div>
+
 
 
 <div id="overlay"></div>
