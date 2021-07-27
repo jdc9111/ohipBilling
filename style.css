@@ -56,10 +56,10 @@ body {
 }
 
 .title {
-  padding-top: 2rem;
+  padding-top: 1rem;
   text-align: center;
   background-color: lightslategray;
-  padding-bottom: 2rem;
+  padding-bottom: none;
   color: white;
 }
 
