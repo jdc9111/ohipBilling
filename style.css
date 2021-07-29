@@ -266,3 +266,14 @@ button {
 .row {
   display: flex;
 }
+
+.msk {
+  background-color: rgb(156, 92, 156);
+  border-radius: 6px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.interiorbox {
+  margin: 5px 6px 0px 6px;
+}
