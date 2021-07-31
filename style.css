@@ -65,7 +65,7 @@ body {
 .title {
   padding-top: 1rem;
   text-align: center;
-  background-color: lightslategray;
+  background-color: black;
   padding-bottom: none;
   color: white;
 }
@@ -150,9 +150,9 @@ ul.modal-list {
 }
 
 .icon {
-  width: 30px;
+  width: 35px;
   vertical-align: text-bottom;
-  padding-left: 2px;
+  padding-left: 4px;
   padding-right: 6px;
   padding-bottom: none;
 }
