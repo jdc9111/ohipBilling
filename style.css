@@ -2,7 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Viga", sans-serif;
+}
+h4 {
+  font-family: "Viga", sans-serif'
 }
 
 body {
@@ -23,7 +30,8 @@ body {
 }
 
 .accordion-item {
-  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0px;
   padding: 10px;
   margin-bottom: 20px;
   background-color: #f8f8f8;
@@ -33,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-family: "Viga", sans-serif;
 }
 
 .accordion-title::after {
@@ -46,6 +55,7 @@ body {
 }
 
 .accordion-answer {
+  font-family: "Roboto", sans-serif;
   max-height: 0;
   overflow: hidden;
   transition: 500ms ease max-height;
@@ -270,4 +280,10 @@ button {
 .msk {
   background-color: lightslategray;
   padding-top: 30px;
+}
+
+#fandDcodes {
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
 }

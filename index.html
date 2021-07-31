@@ -7,6 +7,17 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="modal.css" />
+
+
+    <!-- Fonts -->
+
+      <!-- Viga -->
+  
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Viga&display=swap" rel="stylesheet">
+
+
     
 
     <title>ER Billing Codes</title>
@@ -19,6 +30,7 @@
   <body>
     <div class="title">
      <img id="erCodes" src="images/erCodesLogo.svg">
+     <h1>OHIP ER Billing Codes</h1>
     </div>
     
 
@@ -587,11 +599,14 @@
 
 
 
-      <!--- MSK Stuff Starts Here -->
+      <!--- F & D Codes -->
 
       <div class="msk">
 
       <div class="accordion">
+
+        <h2 id="fandDcodes">F and D Codes</h2>
+
         <div class="interiorbox">
 
           <div class="accordion-item">
@@ -749,8 +764,8 @@
                   <li>F071 - Os w closed red $161.45</li>
                   <br>
                   <li>F066 - Tarsus excluding os $98.10<button class="btn" data-target="#F066"><img class="icon"src="images/info.svg"></button></li>
-                  <li>F067 - Tarsus w CLOSED REDUCTION $165.20</li>
-                  <li>D033 - Tarsus DISLOCATION w closd $147.60</li>
+                  <li>F067 - Tarsus w closed reduction $165.20</li>
+                  <li>D033 - Tarsus dislocation w closd $147.60</li>
                   <br>
                   <li>F056 - Phalanx $49.20</li>
                   <li>F060 – Phalanx - open reduction $172.30</li>
@@ -773,9 +788,12 @@
               <div class="accordion-answer">
                 <ul>
                   <li>G370 - Inj/aspir Joint/bursa $19.90</li>
-                  <li>G328 - Asp of complex joint (39.80) *not knee</li>
-                  <li>E556 - debrid cmpnd #/ $+40% to F</li>
-                  <li>G465 - jnt manip w anest $13.80</li>
+                  <li>G328 - Asp of complex joint (39.80)</li>
+                    <ul class="subtext">
+                      <li>not knee</li>
+                    </ul>
+                  <li>E556 - Debrid cmpnd #/ $+40% to F</li>
+                  <li>G465 - Jnt manip w anest $13.80</li>
                 </ul>
               </div>
           </div>

@@ -24,7 +24,7 @@
   transform: translate(-50%, -50%);
   transition: top 0.3s ease-in-out;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 3px;
   z-index: 2;
   background-color: #fff;
 }
