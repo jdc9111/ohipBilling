@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
-  font-family: "Viga", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 h4 {
-  font-family: "Viga", sans-serif'
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -30,7 +30,6 @@ body {
 }
 
 .accordion-item {
-  font-family: "Roboto", sans-serif;
   border-radius: 0px;
   padding: 10px;
   margin-bottom: 20px;
@@ -41,7 +40,6 @@ body {
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-family: "Viga", sans-serif;
 }
 
 .accordion-title::after {
@@ -55,7 +53,6 @@ body {
 }
 
 .accordion-answer {
-  font-family: "Roboto", sans-serif;
   max-height: 0;
   overflow: hidden;
   transition: 500ms ease max-height;
