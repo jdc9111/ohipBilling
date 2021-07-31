@@ -20,7 +20,7 @@ body {
   max-width: 15vmax;
 }
 .highlight {
-  background-color: yellow;
+  background-color: rgb(235, 235, 127);
 }
 
 .accordion {
@@ -164,7 +164,7 @@ ul.modal-list {
 }
 
 .yellowBackground {
-  background-color: #ffff00;
+  background-color: #ecec2e;
   color: black;
   border-radius: 4px;
 }
@@ -283,4 +283,9 @@ button {
   color: white;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3rem auto;
 }
