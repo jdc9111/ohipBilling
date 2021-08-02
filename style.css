@@ -294,4 +294,7 @@ button {
   width: 35px;
   padding-left: 6px;
 }
+
+.indent {
+  padding-left: 10px;
 }
