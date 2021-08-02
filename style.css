@@ -289,3 +289,9 @@ button {
   display: grid;
   grid-template-columns: 3.5rem auto;
 }
+
+.accordionIcon {
+  width: 35px;
+  padding-left: 6px;
+}
+}
