@@ -185,8 +185,9 @@
               <div>K737</div><div>Consultant MD $40.45</div> 
             </div>
           </div>
-
-          <li><b>A813</b> <b>Midwife</b>-requested assessment $86.60</li>
+          <div class="grid">
+          <div><b>A813</b></div><div><b>Midwife</b>-requested assessment $86.60</div>
+          </div>
         </ul>
       </div>
 
@@ -319,17 +320,21 @@
           <ul class="accordion-answer">
                 <div class="box highlight">
                   <li><b>Simple Laceration</b></li>
-                  <li>Z176 - suture < 5 cm $20.00*</li>
-                  <li>Z175 - suture 5 to 10 $35.90*</li>
-                  <li>Z179 - suture 10.1 to 15 $50.40*</li>
-                  <li>Z191 - suture > 15 $77.30*</li>
+                    <div class="grid">
+                      <div>Z176</div><div>suture < 5 cm $20.00*</div>
+                      <div>Z175</div><div>suture 5 to 10 $35.90*</div>
+                      <div>Z179</div><div>suture 10.1 to 15 $50.40*</div>
+                      <div>Z191</div><div>suture > 15 $77.30*</div>
+                    </div>
                 </div>
                 <div class="box highlight">
                   <li><b>Face, Bleeder, layers</b></li>
-                  <li>Z154 - < 5 $35.90*</li>
-                  <li>Z177 - 5 to 10cm $71.30*</li>
-                  <li>Z190 - 10.1 to 15cm $101.45*</li>
-                  <li>Z192 - >15 cm face $154.95*</li>
+                  <div class="grid">
+                    <div>Z154</div><div>< 5cm $35.90*</div>
+                    <div>Z177</div><div>5.1 to 10cm $71.30*</div>
+                    <div>Z190</div><div>10.1 to 15cm $101.45*</div>
+                    <div>Z192</div><div>>15 cm face $154.95*</div>
+                  </div>
                 </div>
                 <div class="box redBackground">
                   <h4>Complicated Laceration</h4>
@@ -456,7 +461,7 @@
 
             </div>
             <div class="infoSection">
-              <p><img class="icon" src="images/checkMark.svg">can bill cardioversion WITH G395</p>
+              <p><img class="icon" src="images/checkMark.svg">can bill cardioversion WITH G395, not G52X</p>
             </div>
           </div>
        
@@ -673,7 +678,11 @@
           <a href="#diagnosticCodes"><button class="diagnosisButton"><h2>Diagnostic Codes</h2></button></a>
         </div>
 
+        
+
       <div class="accordion">
+
+        <h1>F@#! & D Codes</h1>
 
         <div class="interiorbox">
 
@@ -878,6 +887,8 @@
       </div>
 
       <div class="diagnosticCodes accordion">
+
+        <h1>Diagnositc Codes Codes</h1>
       
       <div class="accordion-item">
         <h4 class="accordion-title">Adverse Effects</h4>
@@ -1282,7 +1293,7 @@
     <button class="btn close-modal">&times;</button>
   </div>
   <div class="body small-text">
-    <p>A complex laceration repair of the face is a repair that requires a minimum of <b>20 minutes</b> of time to perform the repair procedure and at least one of the following</p>
+    <p>A complex laceration repair of the face that requires a minimum of <b>20 minutes</b> of time to perform and <b>at least one of the following:</b></p>
     <ul class="modal-list">
       <li>Anatomical alignment of the <b>vermilion border, eyebrow, eyelid or pinna; or</b></li>
       <li>Closure of <b>three or more layers</b> (muscle sheath, subcutaneous tissue, skin etc.); or</li>
