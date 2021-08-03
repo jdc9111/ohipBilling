@@ -32,25 +32,41 @@
   </head>
 
   <body>
-    <div class="title">
+    <div class="title" id="assessmentCodes">
      <img id="erCodes" src="images/erCodesLogo.svg">
     </div>
     
 
     <div class="accordion">
 
-      <a href="#diagnosticCodes"><button class="diagnosisButton"><img class="small-logo" src="images/diagnosisButton.svg"></button></a>
-      <a href="#fandDcodes"><button class="diagnosisButton"><img class="small-logo" src="images/fcodes.svg"></button></a>
+    <!--
 
-      <div class="accordion-item">
+      <a href="#diagnosticCodes"><button class="diagnosisButton">Diagnostic Codes<img class="small-logo" src="images/diagnosisButton.svg"></button></a>
+      <a href="#fandDcodes"><button class="diagnosisButton"><img class="small-logo" src="images/fcodes.svg">F & D Codes</button></a>
+
+    -->
+
+
+    <div class="navigationButtons">
+      <a href="#assessmentCodes"><button class="diagnosisButton"><h2>Assessment Codes</h2></button></a>
+      <a href="#fandDcodes"><button class="diagnosisButton"><h2>F@#! & D Codes</h2></button></a>
+      <a href="#diagnosticCodes"><button class="diagnosisButton"><h2>Diagnostic Codes</h2></button></a>
+    </div>
+    
+
+
+      <div class="accordion-item" id="assessmentCodes">
         <h4 class="accordion-title">Assessment Codes</h4>
         <ul class="accordion-answer">
           <div class="greenBackground box">
-            <li><h4>Weekdays 08-17h</h4></li>
-            <li>H101 - minor asses $16.55</li>
-            <li>H102 - full assess $41.65</li>
-            <li>H103 - multi-sys asses $39.35</li>
-            <li>H104 - reassess $16.55<button class="btn" data-target="#H104"><img class="icon"src="images/info.svg"></button></li>
+
+            <b>Weekdays 08-17h</b>
+            <div class="grid">              
+              <div>H101</div><div>minor asses $16.55</div>
+              <div>H102</div><div>full assess $41.65</div>
+              <div>H103</div><div>multi-sys asses $39.35</div>
+              <div>H104</div><div>reassess $16.55<button class="btn" data-target="#H104"><img class="icon"src="images/info.svg"></button></div>
+            </div>
           </div>
 
           <div class="yellowBackground box">
@@ -277,21 +293,23 @@
       </div>
 
       <div class="accordion-item">
-        <h4 class="accordion-title">Skin with General Anesthesia</h4>
+        <h4 class="accordion-title">Skin with &nbsp;<span class="lightBlueText">General Anesthesia</span><img src="images/ga.svg" class="icon"></h4>
           <ul class="accordion-answer">
-            <li>Z102 - SC abscess I&D $44.35</li>
-            <li>Z172 - SC abscess x2+ $66.60</li>
-            <li>Z105 - perianal $66.00</li>
-            <li>Z107 - pil./isrec w $108.00</li>
-            <li>Z108 - palmar/plantar I&D $72.00</li>
-            <li>Z115 - FB removal $88.60</li>
-            <li>Z149 - exc. cyst face/neck $50.00</li>
-            <li>Z150 - x2$65.55 Z151 x3+ $98.55</li>
-            <li>Z740 - breast abs. I+D $75.00</li>
-            <li>Z715 - Bartholinjs I+D $50.90</li>
-            <li>Z716 V kl w marsupialization $71.90 </li>
-            <li>Z728  V Vag.I&D cyst.abscess $92.30</li>
-            <li>Z735 V vag exam dil w GA $50.90</li>
+            <div class="grid">
+              <div>Z102</div><div>SC abscess I&D $44.35</div>
+              <div>Z172</div><div>SC abscess x2+ $66.60</div>
+              <div>Z105</div><div>perianal $66.00</div>
+              <div>Z107</div><div>pil./isrec w $108.00</div>
+              <div>Z108</div><div>palmar/plantar I&D $72.00</div>
+              <div>Z115</div><div>FB removal $88.60</div>
+              <div>Z149</div><div>exc. cyst face/neck $50.00</div>
+              <div>Z150</div><div>x2$65.55 Z151 x3+ $98.55</div>
+              <div>Z740</div><div>breast abs. I+D $75.00</div>
+              <div>Z715</div><div>Bartholinjs I+D $50.90</div>
+              <div>Z716</div><div>w marsupialization $71.90 </div>
+              <div>Z728</div><div>Vag.I&D cyst.abscess $92.30</div>
+              <div>Z735</div><div>vag exam dil w GA $50.90</div>
+            </div>
           </ul>
         <p></p>
       </div>
@@ -399,7 +417,7 @@
           <ul class="accordion-answer">
             <div class="grid">
               <div>Z741</div><div>tracheotomy $273.15</div>
-              <div>Z437</div><div><b>Cardioversion</b>: Electrical <img src="images/lightning.svg" class="icon">& Chemical $92.45</div>
+              <div>Z437</div><div><b>Cardioversion</b>: Electrical & Chemical $92.45<button class="btn" data-target="#Z437"><img class="icon"src="images/info.svg"></button></div>
               <div>G115</div><div><b>External pacing</b> $46.30</div>
               <div>Z401</div><div>Pericardiocentesis $131.70</div>
               <div>M137</div><div>Thoracotomy $390.65</div>
@@ -415,8 +433,11 @@
               <li>J324T/P - post dilator $2.88/4.20</li>
               <div>G310</div>dT - ECG technical $6.75</li>
               <div>G313</div>dP - ECG interpret $4.45</li>
+
               
+
           </ul>
+        
         <p></p>
       </div>
 
@@ -424,7 +445,7 @@
         <h4 class="accordion-title">Cardiovascular<img src="images/cardiacIcon.svg" class="accordionIcon"></h4>
           <div class="accordion-answer">
             <div class="grid">
-              <div>Z437</div><div><b>Cardioversion</b>: Electrical <img src="images/lightning.svg" class="icon">& Chemical $92.45</div>
+              <div>Z437</div><div><b>Cardioversion</b>: Electrical & Chemical $92.45<button class="btn" data-target="#Z437"><img class="icon"src="images/info.svg"></button></div>
               <div>G115</div><div><b>External pacing</b> $46.30</div>
               <div>Z443</div><div>Transvenous Pacemaker $154.10</div>
               <div>Z401</div><div>Pericardiocentesis $131.70</div>
@@ -432,6 +453,10 @@
               <div>G517</div><div>Doppler for BP/pulse $10.05</div>
               <div>G310</div><div>ECG technical $6.75</div>
               <div>G313</div><div>ECG interpret $4.45</div>
+
+            </div>
+            <div class="infoSection">
+              <p><img class="icon" src="images/checkMark.svg">can bill cardioversion WITH G395</p>
             </div>
           </div>
        
@@ -536,6 +561,8 @@
               <div>A813</div><div><b>Midwife requested cosult</b> $86.60</div>
               <div>P006</div><div>Delivery (vaginal) $462.85</div>
               <div>P009</div><div>Attendance at labor and deliv $445.75</div>
+
+
               <div>E411</div><div>+100% if sole P006, P009</div>
               <div>G365</div><div>PAP $6.75</div>
               <div>G005</div><div>Pregnancy test $3.88 </div>
@@ -640,11 +667,13 @@
 
       <div class="msk">
 
+        <div class="navigationButtons" id="fandDcodes">
+          <a href="#assessmentCodes"><button class="diagnosisButton"><h2>Assessment Codes</h2></button></a>
+          <a href="#fandDcodes"><button class="diagnosisButton"><h2>F@#! & D Codes</h2></button></a>
+          <a href="#diagnosticCodes"><button class="diagnosisButton"><h2>Diagnostic Codes</h2></button></a>
+        </div>
+
       <div class="accordion">
-
-        <img id="fandDcodes" class="small-logo" src="images/fcodes.svg">
-
-     
 
         <div class="interiorbox">
 
@@ -842,10 +871,14 @@
 
       <!-- Diagnostic Codes Start Here -->
 
-      <div id="diagnosticCodes" class="diagnosticCodes accordion">
-      
-      <img class="small-logo" src="images/diagnosisButton.svg">
+      <div class="navigationButtons" id="diagnosticCodes">
+        <a href="#assessmentCodes"><button class="diagnosisButton"><h2>Assessment Codes</h2></button></a>
+        <a href="#fandDcodes"><button class="diagnosisButton"><h2>F@#! & D Codes</h2></button></a>
+        <a href="#diagnosticCodes"><button class="diagnosisButton"><h2>Diagnostic Codes</h2></button></a>
+      </div>
 
+      <div class="diagnosticCodes accordion">
+      
       <div class="accordion-item">
         <h4 class="accordion-title">Adverse Effects</h4>
           <div class="accordion-answer">
@@ -1269,6 +1302,16 @@
       <li>Closure of <b>three or more layers</b> (muscle sheath, subcutaneous tissue, skin etc.); or</li>
       <li><b>Ligation of multiple bleeding vessels</b>.</li>
     </ul>    
+  </div>
+</div>
+
+<div class="modal" id="Z437">
+  <div class="header">
+    <div class="modal-title">Z437</div>
+    <button class="btn close-modal">&times;</button>
+  </div>
+  <div class="body">
+    <p>Can bill Z437 with G395 but <b>NOT</b> G52X</p>
   </div>
 </div>
 

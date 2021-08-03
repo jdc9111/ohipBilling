@@ -150,7 +150,7 @@ ul.modal-list {
 }
 
 .icon {
-  width: 35px;
+  width: 30px;
   vertical-align: text-bottom;
   padding-left: 4px;
   padding-right: 6px;
@@ -297,4 +297,21 @@ button {
 
 .indent {
   padding-left: 10px;
+}
+
+.navigationButtons {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.navigationButtons button {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 7px;
+}
+
+.lightBlueText {
+  color: lightskyblue;
 }
