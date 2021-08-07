@@ -65,7 +65,7 @@ body {
 }
 
 .title {
-  padding-top: 1rem;
+  padding-top: none;
   text-align: center;
   background-color: black;
   padding-bottom: none;
@@ -79,6 +79,7 @@ body {
 .title {
   margin: auto;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -325,5 +326,5 @@ button {
 }
 
 #codesLogo {
-  width: 20vw;
+  width: 10rem;
 }
