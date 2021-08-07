@@ -28,7 +28,7 @@ body {
 .accordion {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0px;
 }
 
 .accordion-item {
@@ -304,7 +304,7 @@ button {
 }
 
 .navigationButtons {
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
 }
@@ -312,7 +312,7 @@ button {
   text-align: center;
   background-color: black;
   color: white;
-  margin-top: 0.5rem;
+  margin-top: none;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 7px;
 }
