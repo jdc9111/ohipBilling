@@ -167,8 +167,8 @@ ul.modal-list {
 }
 
 .lightBlueBackground {
-  background-color: rgb(109, 196, 250);
-  color: white;
+  background-color: rgb(149, 211, 250);
+  color: rgb(15, 13, 13);
   border-radius: 4px;
   padding-left: 2rem;
 }
