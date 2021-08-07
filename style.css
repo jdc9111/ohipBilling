@@ -57,7 +57,7 @@ body {
 .accordion-answer {
   max-height: 0;
   overflow: hidden;
-  transition: 500ms ease max-height;
+  transition: 400ms ease max-height;
 }
 
 .accordion-logo {
@@ -160,7 +160,7 @@ ul.modal-list {
 }
 
 .greenBackground {
-  background-color: #2e923c;
+  background-color: #579c61;
   color: white;
   border-radius: 4px;
 }
@@ -178,7 +178,7 @@ ul.modal-list {
 }
 
 .blackBackground {
-  background-color: rgb(44, 39, 39);
+  background-color: rgb(41, 39, 39);
   color: white;
 }
 .redBackground {
@@ -318,4 +318,8 @@ button {
 
 .lightBlueText {
   color: rgb(69, 154, 207);
+}
+
+.thick {
+  font-weight: 600;
 }
