@@ -323,3 +323,7 @@ button {
 .thick {
   font-weight: 600;
 }
+
+#codesLogo {
+  width: 20vw;
+}
