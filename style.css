@@ -141,7 +141,8 @@ ul.modal-list {
 }
 
 .footer {
-  color: black;
+  background-color: black;
+  color: lightslategray;
   margin-top: 75px;
   margin-bottom: 250px;
 
