@@ -305,6 +305,7 @@ button {
 .accordionIcon {
   width: 35px;
   padding-left: 6px;
+  vertical-align: text-bottom;
 }
 
 .indent {
