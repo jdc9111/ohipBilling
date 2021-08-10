@@ -68,10 +68,10 @@ body {
 }
 
 .title {
-  padding-top: none;
+  padding-top: 3px;
   text-align: center;
   background-color: black;
-  padding-bottom: none;
+  padding-bottom: 3px;
   color: white;
 }
 
