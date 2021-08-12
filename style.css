@@ -44,6 +44,10 @@ body {
   cursor: pointer;
 }
 
+.modalPic {
+  width: 30vw;
+}
+
 .accordion-title::after {
   content: "+";
   font-size: 25px;
