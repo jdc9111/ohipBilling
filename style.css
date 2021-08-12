@@ -64,7 +64,13 @@ body {
 }
 
 .accordion-logo {
-  width: 200px;
+  width: 2.5rem;
+  padding-right: 0.5rem;
+}
+
+.accordionLogo {
+  width: 2.5rem;
+  padding-right: 0.5rem;
 }
 
 .title {
@@ -338,6 +344,10 @@ button {
 }
 
 .thick {
+  font-weight: 600;
+}
+
+b {
   font-weight: 600;
 }
 
