@@ -45,7 +45,8 @@ body {
 }
 
 .modalPic {
-  width: 30vw;
+  width: 60vw;
+  max-width: 600px;
 }
 
 .accordion-title::after {
