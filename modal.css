@@ -27,6 +27,7 @@
   border-radius: 3px;
   z-index: 2;
   background-color: #fff;
+  color: black;
 }
 
 .modal.active {
