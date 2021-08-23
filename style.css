@@ -151,7 +151,8 @@ ul.subtext {
 ul.modal-list {
   list-style-type: square;
   font-size: normal;
-  margin-left: 1rem;
+  margin-left: 2.5rem;
+  
 }
 
 .small-logo {
@@ -176,7 +177,7 @@ ul.modal-list {
   vertical-align: text-bottom;
   padding-left: 4px;
   padding-right: 6px;
-  padding-bottom: none;
+  padding-bottom: 3px;
 }
 
 .greenBackground {
