@@ -1,3 +1,8 @@
+
+:root {
+  --green: rgb(93, 173, 145);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -188,7 +193,7 @@ ul.modal-list {
 }
 
 .greenBackground {
-  background-color: #579c61;
+  background-color: var(--green);
   color: white;
   border-radius: 4px;
 }
