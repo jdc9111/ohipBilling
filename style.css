@@ -1,6 +1,7 @@
 
 :root {
   --green: rgb(93, 173, 145);
+  --red: rgb(232,108,98);
 }
 
 * {
@@ -224,7 +225,7 @@ ul.modal-list {
   color: white;
 }
 .redBackground {
-  background-color: #db3a34;
+  background-color: var(--red);
   /*background-color: rgb(201, 84, 84);*/
   color: white;
 }
