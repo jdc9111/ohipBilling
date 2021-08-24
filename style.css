@@ -90,6 +90,13 @@ body {
   color: white;
 }
 
+.newTitle {
+  padding-top: 4px;
+  text-align: center;
+  color: black;
+  font-size: x-large;
+}
+
 .headerLogo {
   width: 50vw;
 }
@@ -151,7 +158,7 @@ ul.subtext {
 ul.modal-list {
   list-style-type: square;
   font-size: normal;
-  margin-left: 2.5rem;
+  margin-left: 1.5rem;
   
 }
 
@@ -376,4 +383,10 @@ b {
 
 .right-align {
   text-align: right;
+}
+
+#ohipBackground {
+  background-color: rgb(32, 151, 32);
+  padding: 10px 15px 10px 15px;
+  color: white;
 }
