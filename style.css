@@ -2,6 +2,8 @@
 :root {
   --green: rgb(93, 173, 145);
   --red: rgb(232,108,98);
+  --yellow: rgb(235, 235, 127);
+  --lightBlue: rgb(149, 211, 250);
 }
 
 * {
@@ -16,8 +18,10 @@ h1 {
   padding-top: 1.5rem;
   padding-bottom: 2rem;
 }
+
 h4 {
   font-family: "Inter", sans-serif;
+  padding-left: 8px;
 }
 
 u {
@@ -33,7 +37,7 @@ body {
   max-width: 15vmax;
 }
 .highlight {
-  background-color: rgb(235, 235, 127);
+  background-color: var(--yellow);
 }
 
 .accordion {
@@ -44,7 +48,7 @@ body {
 
 .accordion-item {
   border-radius: 10px;
-  padding: 10px;
+  padding: 6px;
   margin-bottom: 10px;
   background-color: #f8f8f8;
 }
@@ -71,9 +75,15 @@ body {
 }
 
 .accordion-answer {
+  padding: 0px 8px 0px 8px;
   max-height: 0;
   overflow: hidden;
   transition: 400ms ease max-height;
+}
+
+.accordion-answer h4 {
+  padding-left: 8px;
+  padding-top: 8px;
 }
 
 .accordion-logo {
@@ -144,6 +154,7 @@ a:active {
   background-color: transparent;
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
   text-decoration: none;
@@ -207,15 +218,15 @@ ul.modal-list {
 }
 
 .yellowBackground {
-  background-color: #ffc857;
+  background-color: var(--yellow);
   /*background-color: #ecec2e;*/
   color: black;
   border-radius: 4px;
 }
 
 .orangeBackground {
-  background-color: #ffc857;
-  color: white;
+  background-color: var(--yellow);
+  color: black;
   border-radius: 4px;
 }
 
@@ -234,7 +245,7 @@ ul.modal-list {
   border-radius: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 5px 0px 5px 5px;
+  padding: 10px 0px 5px 5px;
 }
 
 .solidbox {
@@ -331,7 +342,9 @@ ul.modal-list {
 .grid {
   display: grid;
   grid-template-columns: 3.5rem auto;
-  padding-left: 5px;
+  margin-left: 8px;
+  padding: 6px;
+
 }
 
 .accordionIcon {
