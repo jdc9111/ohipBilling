@@ -33,6 +33,11 @@ body {
   background-color: white;
 }
 
+i {
+  background-color: var(--lightBlue);
+  
+}
+
 .logo {
   max-width: 15vmax;
 }
@@ -185,13 +190,15 @@ ul.modal-list {
 
 .footer {
   background-color: black;
-  color: lightslategray;
+  color: rgb(240, 233, 233);
   margin-top: 75px;
-  margin-bottom: 250px;
+  margin-bottom: 0px;
 
-  padding: 40px 15px 40px 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-
+  
+  
 .light {
   color: lightgray;
 }
@@ -255,7 +262,7 @@ ul.modal-list {
   border-radius: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 5px 0px 5px 5px;
+  padding: 5px 0px 5p/.x 5px;
 }
 
 .smallLogo {
@@ -373,7 +380,7 @@ ul.modal-list {
 
 .footerButton {
     text-align: center;
-    background-color: slategray;
+    background-color: rgb(240, 233, 233);
     color: black;
     margin-top: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
