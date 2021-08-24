@@ -352,12 +352,15 @@ ul.modal-list {
     margin-top: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 7px;
-  }
 }
 
+
 .lightBlueText {
-  color: rgb(69, 154, 207);
+  color:  rgb(69, 154, 207);
+  font-weight: 600;
 }
+
+
 
 .thick {
   font-weight: 600;
@@ -369,4 +372,8 @@ b {
 
 #codesLogo {
   width: 10rem;
+}
+
+.right-align {
+  text-align: right;
 }
