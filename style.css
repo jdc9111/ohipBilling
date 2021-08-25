@@ -3,7 +3,9 @@
   --green: rgb(93, 173, 145);
   --red: rgb(232,108,98);
   --yellow: rgb(235, 235, 127);
-  --lightBlue: rgb(149, 211, 250);
+  --lightBlue: rgb(127, 194, 236);
+  --purple: rgb(177, 104, 219);
+  
 }
 
 * {
@@ -384,11 +386,12 @@ ul.modal-list {
 }
 
 .footerButton {
-    text-align: center;
+    display: flex;
+    align-items:center;
     background-color: rgb(240, 233, 233);
     color: black;
     margin-top: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 7px;
 }
 
@@ -420,4 +423,9 @@ b {
   background-color: rgb(93, 173, 145);
   padding: 10px 15px 10px 15px;
   color: white;
+}
+
+#twitter {
+  width: 2rem;
+  padding-right: 0.5rem;
 }
