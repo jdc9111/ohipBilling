@@ -35,7 +35,7 @@ body {
 
 i {
   background-color: var(--lightBlue);
-  
+
 }
 
 .logo {
@@ -196,8 +196,13 @@ ul.modal-list {
 
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right 10px;
 }
-  
+
+#footerItalics {
+  background-color: black;
+}
   
 .light {
   color: lightgray;
