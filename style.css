@@ -174,9 +174,13 @@ li {
 
 ul.subtext {
   padding-left: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   font-size: small;
   margin-left: 1rem;
   list-style-type: square;
+  background-color: rgb(227, 230, 233);
+  border-radius: 3px;
 }
 
 ul.modal-list {
@@ -285,7 +289,6 @@ ul.modal-list {
   margin-bottom: 0.5rem;
   /*margin-right: 0.25rem;*/
   vertical-align: middle;
-
   background-color: rgba(148, 144, 144, 0.411);
   border-radius: 4px;
   padding-left: 0.5rem;
