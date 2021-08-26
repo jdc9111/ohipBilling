@@ -432,3 +432,7 @@ b {
   width: 2rem;
   padding-right: 0.5rem;
 }
+
+#redBackground {
+  background-color: var(--red);
+}

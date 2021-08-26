@@ -246,7 +246,7 @@
           <h4><img class="icon" src="images/phone.svg">CritiCall</h4>
           <div class="grid">
             <div>K736</div>
-            <div><span class="thick">Referring ER MD</span> $31.3<ul class="subtext">
+            <div><span class="thick">Referring ER MD</span> $31.3<ul class="subtext" id="redBackground">
                 <li>max 2/pt/day</li>
               </ul>
             </div>
@@ -927,14 +927,23 @@
                 src="images/info.svg"></button></div>
           <div>A813</div>
           <div><span class="thick">Midwife requested cosult</b> $86.60</div>
-          <div>P006</div>
-          <div>Delivery (vaginal) $462.85</div>
-          <div>P009</div>
-          <div>Attendance at labor and deliv $445.75</div>
+        </div>
+        <div class="solidbox grid">
+          
+            <div>P006</div>
+            <div><b>Delivery (vaginal)</b> $462.85<button class="btn" data-target="#P006"><img class="icon"
+              src="images/info.svg"></button></div>
+            <div>P009</div>
+            <div><b>Attendance at labor and delivery (Non-OB)</b> $498.70 <button class="btn" data-target="#P009"><img class="icon"
+              src="images/info.svg"></button></div>
 
 
-          <div>E411</div>
-          <div>+100% if sole P006, P009</div>
+            <div>E411</div>
+            <div>+100% if sole/day P006, P009</div>
+        </div>
+        <div class="grid">
+
+         
           <div>G365</div>
           <div>PAP $6.75</div>
           <div>G005</div>
@@ -2008,6 +2017,31 @@
       </div>
       <div class="body">
         <p>Delisted???</p>
+      </div>
+    </div>
+
+    <div class="modal" id="P006">
+      <div class="header">
+        <div class="modal-title">P009 - Attendance at labour and delivery</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        <p>Vaginal delivery including repair of a tear or episiotomy extension, first or second degree,
+          when rendered.</P>
+        <p>Add <b>E411</b> if sole delivery/day, max 25/fiscal year... add 100%</p>
+      </div>
+    </div>
+
+    <div class="modal" id="P009">
+      <div class="header">
+        <div class="modal-title">P009 - Attendance at labour and delivery</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        <p>Payable to a physician <b>other than an obstetric consultant</b> for attending labour and delivery
+          when the physician either <b>assists at vaginal delivery or surgery</b>, gives anaesthetic at a
+          caesarean section or operative delivery, or <b>resuscitates</b> the newborn.
+        <p>Add <b>E411</b> if sole delivery/day, max 25/fiscal year... add 100%</p>
       </div>
     </div>
 
