@@ -350,7 +350,7 @@ ul.modal-list {
 }
 
 .msk {
-  background-color: lightslategray;
+  background-color: rgb(147, 90, 170);
   padding-top: 30px;
 }
 
@@ -453,5 +453,6 @@ b {
 }
 
 #anesthesiaLink {
-  width: 2rem;
+  width: 1.5rem;
+  vertical-align:text-bottom;
 }
