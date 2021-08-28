@@ -99,13 +99,13 @@ i {
 }
 
 .accordion-logo {
-  width: 2.5rem;
+  width: 3rem;
   padding-right: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 .accordionLogo {
-  width: 2.5rem;
+  width: 3rem;
   padding-right: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -315,11 +315,13 @@ ul.modal-list {
 .diagnosticCodes {
   background-color: white;
   color: black;
+  padding-top: 1rem;
 }
 
 .diagnosticCodes h2 {
   margin-top: 50px;
   margin-bottom: 30px;
+
 }
 
 .diagnosticCodes .accordion-item {
@@ -350,13 +352,14 @@ ul.modal-list {
 }
 
 .msk {
-  background-color: rgb(147, 90, 170);
-  padding-top: 30px;
+  background-color: rgb(130, 63, 156);
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 #fandDcodes {
   color: white;
-  padding-top: 0.5rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -387,7 +390,7 @@ ul.modal-list {
 }
 
 .navigationButtons {
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
   text-align: center;
 }
@@ -450,6 +453,10 @@ b {
 
 .textCenter {
   text-align: center;
+}
+
+.textWhite {
+  color: white;
 }
 
 #anesthesiaLink {
