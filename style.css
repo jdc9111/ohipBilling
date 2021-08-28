@@ -3,7 +3,7 @@
   --green: rgb(93, 173, 145);
   --red: rgb(232,108,98);
   --yellow: rgb(235, 235, 127);
-  --lightBlue: rgb(127, 194, 236);
+  --lightBlue: rgb(183, 216, 236);
   --purple: rgb(177, 104, 219);
   
 }
@@ -37,6 +37,11 @@ body {
 
 i {
   background-color: var(--lightBlue);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 2px;
+  Padding-bottom: 2px;
+  border-radius: 3px;
 
 }
 
@@ -263,7 +268,7 @@ ul.modal-list {
   border-radius: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 10px 0px 5px 5px;
+  padding: 0px 0px 5px 5px;
 }
 
 .solidbox {
