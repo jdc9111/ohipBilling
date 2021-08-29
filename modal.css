@@ -65,3 +65,8 @@
 .small-text {
   font-size: small;
 }
+.modalPic {
+  width: 95vw;
+  max-width: 800px;
+  max-height: 55vh;
+}

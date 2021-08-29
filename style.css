@@ -1,11 +1,9 @@
-
 :root {
   --green: rgb(93, 173, 145);
-  --red: rgb(232,108,98);
+  --red: rgb(232, 108, 98);
   --yellow: rgb(235, 235, 127);
   --lightBlue: rgb(183, 216, 236);
   --purple: rgb(177, 104, 219);
-  
 }
 
 * {
@@ -18,7 +16,11 @@
 h1 {
   font-family: "Inter", sans-serif;
   padding-top: 1.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
+}
+
+#subTitle {
+  padding-bottom: 3rem;
 }
 
 h4 {
@@ -40,9 +42,8 @@ i {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 2px;
-  Padding-bottom: 2px;
+  padding-bottom: 2px;
   border-radius: 3px;
-
 }
 
 .logo {
@@ -64,18 +65,12 @@ i {
   padding: 6px;
   margin-bottom: 10px;
   background-color: #f8f8f8;
-
 }
 
 .accordion-title {
   display: flex;
   align-items: center;
   cursor: pointer;
-}
-
-.modalPic {
-  width: 60vw;
-  max-width: 600px;
 }
 
 .accordion-title::after {
@@ -194,7 +189,6 @@ ul.modal-list {
   list-style-type: square;
   font-size: normal;
   margin-left: 1.5rem;
-  
 }
 
 .small-logo {
@@ -210,13 +204,13 @@ ul.modal-list {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 10px;
-  padding-right 10px;
+  padding-right: 10px;
 }
 
 #footerItalics {
   background-color: black;
 }
-  
+
 .light {
   color: lightgray;
 }
@@ -279,7 +273,7 @@ ul.modal-list {
   border-radius: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 5px 0px 5p/.x 5px;
+  padding: 5px 0px 5p / .x 5px;
 }
 
 .smallLogo {
@@ -323,7 +317,6 @@ ul.modal-list {
 .diagnosticCodes h2 {
   margin-top: 50px;
   margin-bottom: 30px;
-
 }
 
 .diagnosticCodes .accordion-item {
@@ -334,15 +327,11 @@ ul.modal-list {
   color: rgb(38, 38, 39);
 }
 
-
-
 .diagnosisButton {
   border: none;
   padding: 0;
   background: none;
 }
-
-
 
 #erCodes {
   width: 15rem;
@@ -370,7 +359,6 @@ ul.modal-list {
   grid-template-columns: 3.5rem auto;
   margin-left: 8px;
   padding: 6px;
-
 }
 
 .anesthesiaGrid {
@@ -378,7 +366,6 @@ ul.modal-list {
   grid-template-columns: 4rem auto;
   margin-left: 8px;
   padding: 6px;
-
 }
 
 .accordionIcon {
@@ -406,20 +393,17 @@ ul.modal-list {
 }
 
 .footerButton {
-    background-color: rgb(240, 233, 233);
-    color: black;
-    margin-top: 0.5rem;
-    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-    border-radius: 7px;
+  background-color: rgb(240, 233, 233);
+  color: black;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+  border-radius: 7px;
 }
-
 
 .lightBlueText {
-  color:  rgb(69, 154, 207);
+  color: rgb(69, 154, 207);
   font-weight: 600;
 }
-
-
 
 .thick {
   font-weight: 600;
@@ -463,7 +447,7 @@ b {
 
 #anesthesiaLink {
   width: 1.5rem;
-  vertical-align:text-bottom;
+  vertical-align: text-bottom;
 }
 
 .lighterText {

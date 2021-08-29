@@ -5,9 +5,9 @@ OHIP schedule of benefits https://www.health.gov.on.ca/en/pro/programs/ohip/sob/
 
 To do
 [] Add description to complicated lacertions
+[] Add html page for ASA classication?
 
 Finish anesthesia
 Fix OB
 Go thru EM London billing sheet
-Go thru 
 
