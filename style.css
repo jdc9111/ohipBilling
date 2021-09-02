@@ -343,7 +343,7 @@ ul.modal-list {
 }
 
 .msk {
-  background-color: rgb(130, 63, 156);
+  background-color: rgb(111, 61, 131);
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
@@ -457,4 +457,5 @@ b {
 
 .sedation {
   background-color: var(--lightBlue);
+  padding-bottom: 3rem;
 }
