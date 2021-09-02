@@ -273,7 +273,7 @@ ul.modal-list {
   border-radius: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 5px 0px 5p / .x 5px;
+  padding: 5px 5px 5px 5px;
 }
 
 .smallLogo {
@@ -365,7 +365,8 @@ ul.modal-list {
   display: grid;
   grid-template-columns: 4rem auto;
   margin-left: 8px;
-  padding: 6px;
+  padding: 8px 8px 8px 8px;
+  background-color: #f8f8f8;
 }
 
 .accordionIcon {

@@ -994,80 +994,7 @@
     </div>
 
 
-    <!-- Anesthesia -->
 
-    <div class="accordion-item">
-      <h4 class="accordion-title"><img src="images/sleep.svg" class="accordionLogo">Sedation / Anesthesia</h4>
-      <div class="accordion-answer">
-        <div>
-            <h2 class="textCenter">Procedure code + "C"<br>+<br> Time units (/15 mins)<button class="btn" data-target="#timeUnits"><img src="images/info.svg" id="anesthesiaLink"></button><br>+<br>Time Premiums</h2>
-            <div class="anesthesiaGrid solidbox">
-                <div>E400C</div><div><b>Evenings</b> 17h-24h (+50%)</div>
-                <div>E400C</div><div><b>Weekend & Holidays</b>  07-24h (+50%)</div>
-                <div>E401C</div><div><b>Nights</b> 24-07h (+75%)</div>
-    
-                
-            </div>
-            <a href="images/asa.jpg"><h2 class="textCenter">+<br>ASA Premium<img src="images/link.svg" id="anesthesiaLink"></h2></a>
-
-          <div class="anesthesiaGrid solidbox">
-            <div>E022C</div><div>ASA III (+2U)</div>
-            <div>E017C</div><div>ASA IV (+10U)</div>
-            <div>E016C</div><div>ASA V (+20U)</div>
-          </div>
-
-          <h2 class="textCenter">+<br>Emergency <button class="btn" data-target="#anesthesiaEmergency"><img src="images/info.svg" id="anesthesiaLink"></button></h2>
-          <div class="anesthesiaGrid solidbox">
-            <div>E020C</div><div>ASA E (+4U)</div>
-          </div>
-
-          <h2 class="textCenter">+<br>Call in? </h2>
-          <div class="anesthesiaGrid solidbox">
-            <div>C998C</div><div>Call in evenings $60.00</div>
-            <div>C999C</div><div>Call in nights $100.00M</div>
-          </div>
-
-          <h2 class="textCenter">+<br>Bariatric <button class="btn" data-target="#bariatric"><img src="images/info.svg" id="anesthesiaLink"></button> </h2>
-          <div class="anesthesiaGrid solidbox">
-            <div>E010C</div><div>BMI >40 (+2U)M</div>
-          </div>
-
-          <h2 class="textCenter">+<br>Odd position?</h2>
-          <div class="anesthesiaGrid solidbox">
-            <div>E011C</div><div>Prone position (+4U)</div>
-            <div>E024C</div><div>Sitting >60° (+4U)</div>
-          </div>
-
-
-          <div class="solidbox">
-            <li><b>Special Units</b></li>
-            <li>E014C - newborn to 28d (5U)*</li>
-            <li>E009C - infant 29d-1y (4U)*</li>
-            <li>E019C - 1-8 yr (+2U)*</li>
-            <li>E007C - 70-79 yr (+1U)*</li>
-            <li>E018C - +80 yr (+3U)*</li>
-            <div class="infoSection">
-              <p>*automated by OHIP do not add</p>
-            </div>
-          </div>
-       
-
-  
-          <li>E011C - Prone position (+4U)</li>
-          <li>E024C V Sitting >60° (+4U)</li><br>
-
-
-          <div class="box">
-            <li>Z432A V Examination under anaes.M</li>
-            <li>(EUA (54.10 )* not C : A=IOPM</li>
-            <li>E023C V EUA C V 6 baseM</li>
-            <li>E002C - w hypothermia (25U Base)M</li>
-            <li>E013C - anaes mgt of acute upper airway obstruction (10U Base) M</li>
-          </div>
-        </div>
-
-        </div>
-    </div>
 
     <div class="accordion-item">
       <h4 class="accordion-title"><img src="images/ems.svg" class="accordionLogo">Detention in EMS</h4>
@@ -1118,7 +1045,9 @@
           <h4 class="accordion-title"><img src="images/sleep.svg" class="accordionLogo">Sedation / Anesthesia</h4>
           <div class="accordion-answer">
             <div>
-                <h2 class="textCenter">Procedure code + "C"<br>+<br> Time units (/15 mins)<button class="btn" data-target="#timeUnits"><img src="images/info.svg" id="anesthesiaLink"></button><br>+<br>Time Premiums</h2>
+                <h2 class="textCenter">Procedure code
+                   + "C"<button class="btn" data-target="#procedureCode"><img src="images/info.svg" id="anesthesiaLink"></button>
+                   <br>+<br> Time units (/15 mins)<button class="btn" data-target="#timeUnits"><img src="images/info.svg" id="anesthesiaLink"></button><br>+<br>Time Premiums</h2>
                 <div class="anesthesiaGrid solidbox">
                     <div>E400C</div><div><b>Evenings</b> 17h-24h (+50%)</div>
                     <div>E400C</div><div><b>Weekend & Holidays</b>  07-24h (+50%)</div>
@@ -1155,24 +1084,16 @@
                 <div>E011C</div><div>Prone position (+4U)</div>
                 <div>E024C</div><div>Sitting >60° (+4U)</div>
               </div>
-    
-    
-              <div class="solidbox">
-                <li><b>Special Units</b></li>
-                <li>E014C - newborn to 28d (5U)*</li>
-                <li>E009C - infant 29d-1y (4U)*</li>
-                <li>E019C - 1-8 yr (+2U)*</li>
-                <li>E007C - 70-79 yr (+1U)*</li>
-                <li>E018C - +80 yr (+3U)*</li>
-                <div class="infoSection">
-                  <p>*automated by OHIP do not add</p>
-                </div>
+
+              <h2 class="textCenter">+<br>Age Extra Units</h2>
+              <div class="anesthesiaGrid solidbox">
+                <div>E014C</div><div>newborn to 28d (5U)</div>
+                <div>E009C</div><div>infant 29d-1y (4U)</div>
+                <div>E019C</div><div>1-8 yr (+2U)</div>
+                <div>E007C</div><div>70-79 yr (+1U)</div>
+                <div>E018C</div><div>+80 yr (+3U)</div>
               </div>
-           
-    
-      
-              <li>E011C - Prone position (+4U)</li>
-              <li>E024C V Sitting >60° (+4U)</li><br>
+  
     
     
               <div class="box">
@@ -1190,8 +1111,6 @@
       </div>
     
       </div>
-
-
 
 
 
@@ -2235,7 +2154,7 @@
       <div class="body">
         <ul class="modal-list">
           <li>Time is from attendance to departure</li>
-          <li>Each unit is 15 mins</li>
+          <li>Each unit is 15 mins or 'or part thereof'</li>
           
         </ul>
     </div>
@@ -2248,6 +2167,17 @@
       </div>
       <div class="body">
         <p>A delay in treatment of the patient would lead to a significant increase in the threat to life or body part.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="procedureCode">
+      <div class="header">
+        <div class="modal-title">Procedure Code</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        <p>e.g. Ankle fracture reduction code = F075C</p>
+        <p>Must lign up with same code as MD billing procedure</p>
       </div>
     </div>
 
