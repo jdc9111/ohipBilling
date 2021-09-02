@@ -453,3 +453,7 @@ b {
 .lighterText {
   font-weight: lighter;
 }
+
+.sedation {
+  background-color: var(--lightBlue);
+}
