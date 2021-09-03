@@ -329,9 +329,14 @@ ul.modal-list {
 }
 
 .diagnosisButton {
+  cursor: pointer;
   border: none;
   padding: 0;
   background: none;
+}
+
+.diagnosisButton:active {
+  transform: scale(0.9);
 }
 
 #erCodes {
@@ -344,15 +349,16 @@ ul.modal-list {
 }
 
 .msk {
-  background-color: rgb(103, 72, 207);
+  background-color: rgb(74, 72, 207);
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
 
 #fandDcodes {
   color: white;
-  padding-top: 0rem;
+  /*padding-top: 0rem;
   padding-bottom: 1rem;
+  */
 }
 
 .grid {
@@ -384,6 +390,7 @@ ul.modal-list {
   padding-top: 4rem;
   padding-bottom: 2rem;
   text-align: center;
+  cursor: pointer;
 }
 .navigationButtons button {
   text-align: center;
