@@ -209,6 +209,7 @@ ul.modal-list {
 
 #footerItalics {
   background-color: black;
+  padding-left: 0;
 }
 
 .light {
@@ -343,7 +344,7 @@ ul.modal-list {
 }
 
 .msk {
-  background-color: rgb(111, 61, 131);
+  background-color: rgb(103, 72, 207);
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
