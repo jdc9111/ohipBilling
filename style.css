@@ -461,4 +461,7 @@ b {
 .sedation {
   background-color: var(--lightBlue);
   padding-bottom: 3rem;
+
+  background-image: linear-gradient(to right top, #b7d8ec, #9bcbea, #7dbee9, #5db1e8, #33a3e7);
+  );
 }
