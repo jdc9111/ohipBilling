@@ -4,6 +4,11 @@ const btns = document.querySelectorAll("[data-target]");
 const close_modals = document.querySelectorAll(".close-modal");
 const overlay = document.getElementById("overlay");
 
+window.addEventListener("load", () => {
+  document.querySelector("#beta").classList.add("active");
+  overlay.classList.add("active");
+});
+
 btns.forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelector(btn.dataset.target).classList.add("active");
