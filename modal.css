@@ -25,9 +25,9 @@
   transform: translate(-50%, -50%);
   transition: top 0.3s ease-in-out;
   border: 1px solid #ccc;
-  border-radius: 7px;
+  border-radius: 9px;
   z-index: 2;
-  background-color: #fff;
+  background-color: white;
   color: black;
 }
 
@@ -41,7 +41,8 @@
   align-items: center;
   border-bottom: 1px solid #ccc;
   padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: white;
+  border-radius: 9px;
 }
 
 .modal .body {
