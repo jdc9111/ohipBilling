@@ -26,6 +26,7 @@ h1 {
 h4 {
   font-family: "Inter", sans-serif;
   padding-left: 8px;
+  text-size-adjust: auto;
 }
 
 u {
@@ -108,15 +109,13 @@ i {
 }
 
 .title {
-  padding-top: 3px;
   text-align: center;
-  background-color: black;
-  padding-bottom: 3px;
-  color: white;
+  color: black;
+  letter-spacing: -2px;
 }
 
 .newTitle {
-  padding-top: 4px;
+  padding-top: 3rem;
   text-align: center;
   color: black;
   font-size: x-large;
@@ -124,10 +123,6 @@ i {
 
 .headerLogo {
   width: 50vw;
-}
-
-.title {
-  margin: auto;
 }
 
 .center {
@@ -433,6 +428,7 @@ b {
   background-color: rgb(93, 173, 145);
   padding: 10px 15px 10px 15px;
   color: white;
+  border-radius: 6px;
 }
 
 #twitter {
