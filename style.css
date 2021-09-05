@@ -190,13 +190,6 @@ ul.modal-list {
   width: 6rem;
 }
 
-
-
-#footerItalics {
-  background-color: black;
-  padding-left: 0;
-}
-
 .light {
   color: lightgray;
 }
@@ -452,17 +445,24 @@ b {
   background-color: var(--lightBlue);
   padding-bottom: 3rem;
 
-  background-image: linear-gradient(to right top, #b7d8ec, #9bcbea, #7dbee9, #5db1e8, #33a3e7);
+  background-image: linear-gradient(
+    to right top,
+    #b7d8ec,
+    #9bcbea,
+    #7dbee9,
+    #5db1e8,
+    #33a3e7
   );
+  border-radius: 12px 12px 0px 0px;
 }
 
 .footer {
   background-color: black;
-  color:white;
+  color: white;
 
   margin-top: 3rem;
 
-  padding-top:3rem;
+  padding-top: 3rem;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -471,7 +471,7 @@ b {
   background-color: rgb(26, 26, 26);
   color: rgb(180, 179, 179);
   border-radius: 9px;
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 2.5rem 1.5rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -485,7 +485,7 @@ b {
 
 .twitterButton {
   background-color: rgb(55, 123, 200);
-  color:black;
+  color: black;
 }
 
 .emailButton {
