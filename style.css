@@ -465,3 +465,28 @@ b {
   background-image: linear-gradient(to right top, #b7d8ec, #9bcbea, #7dbee9, #5db1e8, #33a3e7);
   );
 }
+
+.footerCard {
+  background-color: rgb(26, 26, 26);
+  color: rgb(180, 179, 179);
+  border-radius: 9px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+.footerButton {
+  /* background-color: rgb(240, 233, 233);
+  color: black;*/
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+  border-radius: 7px;
+}
+
+.twitterButton {
+  background-color: rgb(55, 123, 200);
+  color:black;
+}
+
+.emailButton {
+  background-color: coral;
+  color: black;
+}
