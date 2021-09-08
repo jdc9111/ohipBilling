@@ -520,10 +520,15 @@ b {
 .diagnosisCard {
   /*8?background-color: rgb(92, 27, 117);*/
   color: black;
-  padding: 10px;
+  padding: 12px;
   border-radius: 8px;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .diagnosisCard ul {
