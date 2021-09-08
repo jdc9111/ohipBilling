@@ -71,3 +71,6 @@
   max-width: 800px;
   max-height: 55vh;
 }
+#blood, #heart, #laceration {
+  background-color: rgb(231, 104, 104);
+}

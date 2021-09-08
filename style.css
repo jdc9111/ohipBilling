@@ -535,3 +535,34 @@ b {
   font-size: 0.8rem;
   padding: 4px 0px 4px 0px;
 }
+
+#blood,
+#heart,
+#laceration {
+  background-color: rgb(231, 104, 104);
+  background-image: none;
+}
+
+#male {
+  background-color: var(--lightBlue);
+  background-image: none;
+}
+
+#female,
+#breast {
+  background-image: none;
+  background-color: pink;
+}
+
+#ent {
+  background-color: orange;
+  background-image: none;
+}
+#urine {
+  background-image: none;
+  background-color: rgb(253, 253, 116);
+}
+#gi {
+  background-image: none;
+  background-color: rgb(156, 111, 111);
+}
