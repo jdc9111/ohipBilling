@@ -26,7 +26,10 @@ h1 {
 h4 {
   font-family: "Inter", sans-serif;
   padding-left: 8px;
-  text-size-adjust: auto;
+}
+
+h4 .accordion-title {
+  font-size: 2rem;
 }
 
 u {
@@ -64,7 +67,7 @@ i {
 .accordion-item {
   border-radius: 10px;
   padding: 6px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   background-color: #f8f8f8;
 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -493,4 +496,37 @@ b {
 .emailButton {
   background-color: coral;
   color: black;
+}
+
+.diagnosticGrid {
+  --auto-grid-min-size: 8rem;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
+  grid-gap: 1rem;
+
+  /*
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px; */
+
+  text-align: center;
+}
+
+.diagnosisCard {
+  /*8?background-color: rgb(92, 27, 117);*/
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.diagnosisCard ul {
+  font-size: 0.8rem;
+  padding: 4px 0px 4px 0px;
 }
