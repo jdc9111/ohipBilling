@@ -121,6 +121,7 @@ i {
 
 .newTitle {
   padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
   color: black;
   font-size: x-large;
@@ -337,7 +338,7 @@ ul.modal-list {
 }
 
 #fandDcodes {
-  color: white;
+  /*color: white;
   /*padding-top: 0rem;
   padding-bottom: 1rem;
   */
@@ -538,12 +539,14 @@ b {
 
 #blood,
 #heart,
-#laceration {
+#laceration,
+#injuries {
   background-color: rgb(231, 104, 104);
   background-image: none;
 }
 
-#male {
+#male,
+#resp {
   background-color: var(--lightBlue);
   background-image: none;
 }
@@ -565,4 +568,22 @@ b {
 #gi {
   background-image: none;
   background-color: rgb(156, 111, 111);
+}
+
+.stickyFooter {
+  position: sticky;
+  bottom: 50px;
+  margin: 0 auto;
+  width: 75%;
+  color: black;
+  text-align: center;
+}
+
+.stickyFooter button {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 7px;
 }

@@ -42,6 +42,8 @@
 
 <body>
 
+  <div class="wrapper">
+
   <!--
     <div class="title">
       <img id="erCodes" src="images/erCodesLogo.svg">
@@ -49,7 +51,8 @@
     </div>
   -->
 
-  <div class="newTitle">
+
+  <div class="newTitle" id="assessmentCodes">
       <h1 class="title"><span id="ohipBackground">ohip</span> ER codes</h1>
   </div>
 
@@ -63,6 +66,7 @@
     -->
 
 
+    <!--
     <div class="navigationButtons" id="assessmentCodes">
       <a href="#assessmentCodes"><button class="diagnosisButton">
           <h2>Assessment Codes</h2>
@@ -76,8 +80,10 @@
       <a href="#diagnosticCodes"><button class="diagnosisButton">
           <h2>Diagnostic Codes</h2>
         </button></a>
-
     </div>
+  -->
+    
+
 
 
 
@@ -1032,10 +1038,13 @@
 
 
 
+    
+  
   </div>
 
-  <div class="sedation">
+  <div class="sedation" id="sedationCodes">
 
+    <!--
     <div class="navigationButtons" id="sedationCodes">
       <a href="#assessmentCodes"><button class="diagnosisButton">
           <h2>Assessment Codes</h2>
@@ -1049,7 +1058,7 @@
           <h2>Diagnostic Codes</h2>
         </button></a>
     </div>
-
+  -->
 
 
     <div class="accordion">
@@ -1143,8 +1152,9 @@
 
   <!--- F & D Codes -->
 
-  <div class="msk">
+  <div class="msk" id="fandDcodes">
 
+    <!--
     <div class="navigationButtons" id="fandDcodes">
       <a href="#assessmentCodes"><button class="diagnosisButton">
           <h2>Assessment Codes</h2>
@@ -1159,6 +1169,7 @@
         </button></a>
     </div>
 
+  -->
 
 
     <div class="accordion">
@@ -1457,10 +1468,10 @@
   <!-- Diganostic code cards -->
 
   <div class="diagnosticCards">
-    <div class="accordion">
+    <div class="accordion" id="diagnosticCodes">
 
-
-      <div class="navigationButtons" id="diagnosticCodes">
+      <!--
+      <div class="navigationButtons">
         <a href="#assessmentCodes"><button class="diagnosisButton">
             <h2>Assessment Codes</h2>
           </button></a>
@@ -1473,6 +1484,8 @@
             <h2>Diagnostic Codes</h2>
           </button></a>
       </div>
+
+    -->
 
       <h1 class="textCenter" id="subTitle">Diagnositc Codes</h1>
 
@@ -1567,7 +1580,7 @@
             </ul>
         </div>
     
-        <div class="diagnosisCard">
+        <div class="diagnosisCard" id="injuries">
           <h4>Injuries 959</h4>
             <ul>
               <li>Burns 949</li>
@@ -1618,7 +1631,7 @@
             <li>Social Problems 909</li>
           </ul>
         </div>
-        <div class="diagnosisCard">
+        <div class="diagnosisCard" id="resp">
           <h4>Respiratory System 519</h4>
           <ul>
             <li>Asthma 493</li>
@@ -1660,7 +1673,29 @@
     
 
 
+    </div>
   </div>
+
+  <div class="stickyFooter">
+    
+    <a href="#assessmentCodes"><button class="diagnosisButton">
+      <h2>Assessment Codes</h2>
+    </button></a>
+    <a href="#sedationCodes"><button class="diagnosisButton">
+      <h2>Sedation Codes</h2>
+    </button></a>
+  <a href="#fandDcodes"><button class="diagnosisButton">
+      <h2>F@#! & D Codes</h2>
+    </button></a>
+  <a href="#diagnosticCodes"><button class="diagnosisButton">
+      <h2>Diagnostic Codes</h2>
+    </button></a>
+  </div>
+
+  </div>
+
+
+
 
   
 
