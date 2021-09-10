@@ -572,7 +572,7 @@ b {
 
 .stickyFooter {
   position: sticky;
-  bottom: 50px;
+  bottom: 5px;
   margin: 0 auto;
   color: black;
   text-align: center;
