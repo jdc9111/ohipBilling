@@ -531,6 +531,7 @@ b {
   align-content: center;
   flex-direction: column;
   min-height: 8rem;
+  background-position: center;
 }
 
 .diagnosisCard ul {
@@ -560,8 +561,14 @@ b {
 
 #female,
 #breast {
-  background-image: none;
-  background-color: pink;
+  background-color: lightpink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#female {
+  background-image: url(images/female.svg);
 }
 
 #ent {
