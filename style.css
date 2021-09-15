@@ -530,6 +530,7 @@ b {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  min-height: 8rem;
 }
 
 .diagnosisCard ul {
@@ -549,6 +550,12 @@ b {
 #resp {
   background-color: var(--lightBlue);
   background-image: none;
+}
+
+#male {
+  background-image: url(images/eggplant.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #female,
@@ -573,6 +580,13 @@ b {
 #covid {
   background-image: url(images/covid.svg);
   background-size: cover;
+}
+
+#teeth {
+  background-color: white;
+  background-image: url(images/teeth.svg);
+  background-repeat: none;
+  background-size: contain;
 }
 
 .stickyFooter {
