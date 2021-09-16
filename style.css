@@ -561,7 +561,7 @@ b {
 
 #female,
 #breast {
-  background-color: lightpink;
+  background-color: rgb(255, 215, 221);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -580,8 +580,10 @@ b {
   background-color: rgb(253, 253, 116);
 }
 #gi {
-  background-image: none;
-  background-color: rgb(139, 69, 19);
+  background-image: url(images/stool.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #covid {
