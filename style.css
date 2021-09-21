@@ -597,7 +597,24 @@ b {
   background-color: white;
   background-image: url(images/teeth.svg);
   background-repeat: none;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+}
+
+#eye {
+  background-color: white;
+  background-image: url(images/eye2.svg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+#infection {
+  background-color: white;
+  background-image: url(images/infection.svg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
 }
 
 .stickyFooter {
