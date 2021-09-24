@@ -350,8 +350,10 @@ ul.modal-list {
 .grid {
   display: grid;
   grid-template-columns: 3.5rem auto;
+
   margin-left: 8px;
   padding: 6px;
+  grid-gap: 8px;
 }
 
 .anesthesiaGrid {
