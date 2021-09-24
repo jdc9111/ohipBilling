@@ -1046,109 +1046,112 @@
   
   </div>
 
-  <div class="sedation" id="sedationCodes">
 
-    <!--
-    <div class="navigationButtons" id="sedationCodes">
-      <a href="#assessmentCodes"><button class="diagnosisButton">
-          <h2>Assessment Codes</h2>
-        </button></a>
-      <a href="#sedationCodes"><button class="diagnosisButton">
-          <h2>Sedation Codes</h2></button></a>
-      <a href="#fandDcodes"><button class="diagnosisButton">
-          <h2>F@#! & D Codes</h2>
-        </button></a>
-      <a href="#diagnosticCodes"><button class="diagnosisButton">
-          <h2>Diagnostic Codes</h2>
-        </button></a>
+  <div class=accordion>
+    <div id="sedationCodes">
+
+      <!--
+      <div class="navigationButtons" id="sedationCodes">
+        <a href="#assessmentCodes"><button class="diagnosisButton">
+            <h2>Assessment Codes</h2>
+          </button></a>
+        <a href="#sedationCodes"><button class="diagnosisButton">
+            <h2>Sedation Codes</h2></button></a>
+        <a href="#fandDcodes"><button class="diagnosisButton">
+            <h2>F@#! & D Codes</h2>
+          </button></a>
+        <a href="#diagnosticCodes"><button class="diagnosisButton">
+            <h2>Diagnostic Codes</h2>
+          </button></a>
+      </div>
+    -->
+
+
+      <div class="accordion" id="sedation">
+
+        <h1 class="textCenter textWhite" id="subTitle">Anesthesia Codes</h1>
+
+        <div class="interiorbox">
+
+          <div class="accordion-item">
+            <h4 class="accordion-title"><img src="images/sleep.svg" class="accordionLogo">Sedation Codes</h4>
+            <div class="accordion-answer">
+              <div>
+                  <h2 class="textCenter">Procedure code
+                    + "C" <button class="btn" data-target="#procedureCode"><img src="images/info.svg" id="anesthesiaLink"></button>
+                    <br>+<br> Time units (/15 mins)<button class="btn" data-target="#timeUnits"><img src="images/info.svg" id="anesthesiaLink"></button></h2>
+                      <p class="textCenter"><b>6 base units to start</b></p>
+                  <h2 class="textCenter">+<br>Time Premiums</h2>
+                    <div class="anesthesiaGrid solidbox">
+                      <div>E400C</div><div><b>Evenings</b> 17h-24h (+50%)</div>
+                      <div>E400C</div><div><b>Weekend & Holidays</b>  07-24h (+50%)</div>
+                      <div>E401C</div><div><b>Nights</b> 24-07h (+75%)</div>
+                    </div>
+                  <a href="images/asa.jpg"><h2 class="textCenter">+<br>ASA Premium<img src="images/link.svg" id="anesthesiaLink"></h2></a>
+      
+                <div class="anesthesiaGrid solidbox">
+                  <div>E022C</div><div>ASA III (+2U)</div>
+                  <div>E017C</div><div>ASA IV (+10U)</div>
+                  <div>E016C</div><div>ASA V (+20U)</div>
+                </div>
+      
+                <h2 class="textCenter">+<br>Emergency <button class="btn" data-target="#anesthesiaEmergency"><img src="images/info.svg" id="anesthesiaLink"></button></h2>
+                <div class="anesthesiaGrid solidbox">
+                  <div>E020C</div><div>ASA E (+4U)</div>
+                </div>
+      
+                <h2 class="textCenter">+<br>Call in? </h2>
+                <div class="anesthesiaGrid solidbox">
+                  <div>C998C</div><div>Call in evenings $60.00</div>
+                  <div>C999C</div><div>Call in nights $100.00</div>
+                </div>
+      
+                <h2 class="textCenter">+<br>Bariatric <button class="btn" data-target="#bariatric"><img src="images/info.svg" id="anesthesiaLink"></button> </h2>
+                <div class="anesthesiaGrid solidbox">
+                  <div>E010C</div><div>BMI >40 (+2U)</div>
+                </div>
+      
+                <h2 class="textCenter">+<br>Odd position?</h2>
+                <div class="anesthesiaGrid solidbox">
+                  <div>E011C</div><div>Prone position (+4U)</div>
+                  <div>E024C</div><div>Sitting >60° (+4U)</div>
+                </div>
+
+                <h2 class="textCenter">+<br>Age Extra Units</h2>
+                <div class="anesthesiaGrid solidbox">
+                  <div>E014C</div><div>newborn to 28d (5U)</div>
+                  <div>E009C</div><div>infant 29d-1y (4U)</div>
+                  <div>E019C</div><div>1-8 yr (+2U)</div>
+                  <div>E007C</div><div>70-79 yr (+1U)</div>
+                  <div>E018C</div><div>+80 yr (+3U)</div>
+                </div>
+              </div>
+      
+              </div>
+          </div>
+
+          <div class="accordion-item">
+            <h4 class="accordion-title"><img src="images/orthoquestion.svg" class="accordionLogo">Other Anesthesia Codes</h4>
+            <div class="accordion-answer">
+              <div>
+                  
+      
+                <div class="anesthesiaGrid">
+                  
+                  <div>E023C</div><div>EUA C V 6 baseM</div>
+                  <div>E002C</div><div>w hypothermia (25U Base)M</div>
+                  <div>E013C</div><div>anaes mgt of acute upper airway obstruction (10U Base) M</div>
+                </div>
+              </div>
+      
+              </div>
+          </div>
+          
+        </div>
+      
+        </div>
+    
     </div>
-  -->
-
-
-    <div class="accordion" id="sedation">
-
-      <h1 class="textCenter textWhite" id="subTitle">Anesthesia Codes</h1>
-
-      <div class="interiorbox">
-
-        <div class="accordion-item">
-          <h4 class="accordion-title"><img src="images/sleep.svg" class="accordionLogo">Sedation Codes</h4>
-          <div class="accordion-answer">
-            <div>
-                <h2 class="textCenter">Procedure code
-                   + "C" <button class="btn" data-target="#procedureCode"><img src="images/info.svg" id="anesthesiaLink"></button>
-                   <br>+<br> Time units (/15 mins)<button class="btn" data-target="#timeUnits"><img src="images/info.svg" id="anesthesiaLink"></button></h2>
-                    <p class="textCenter"><b>6 base units to start</b></p>
-                <h2 class="textCenter">+<br>Time Premiums</h2>
-                  <div class="anesthesiaGrid solidbox">
-                    <div>E400C</div><div><b>Evenings</b> 17h-24h (+50%)</div>
-                    <div>E400C</div><div><b>Weekend & Holidays</b>  07-24h (+50%)</div>
-                    <div>E401C</div><div><b>Nights</b> 24-07h (+75%)</div>
-                  </div>
-                <a href="images/asa.jpg"><h2 class="textCenter">+<br>ASA Premium<img src="images/link.svg" id="anesthesiaLink"></h2></a>
-    
-              <div class="anesthesiaGrid solidbox">
-                <div>E022C</div><div>ASA III (+2U)</div>
-                <div>E017C</div><div>ASA IV (+10U)</div>
-                <div>E016C</div><div>ASA V (+20U)</div>
-              </div>
-    
-              <h2 class="textCenter">+<br>Emergency <button class="btn" data-target="#anesthesiaEmergency"><img src="images/info.svg" id="anesthesiaLink"></button></h2>
-              <div class="anesthesiaGrid solidbox">
-                <div>E020C</div><div>ASA E (+4U)</div>
-              </div>
-    
-              <h2 class="textCenter">+<br>Call in? </h2>
-              <div class="anesthesiaGrid solidbox">
-                <div>C998C</div><div>Call in evenings $60.00</div>
-                <div>C999C</div><div>Call in nights $100.00</div>
-              </div>
-    
-              <h2 class="textCenter">+<br>Bariatric <button class="btn" data-target="#bariatric"><img src="images/info.svg" id="anesthesiaLink"></button> </h2>
-              <div class="anesthesiaGrid solidbox">
-                <div>E010C</div><div>BMI >40 (+2U)</div>
-              </div>
-    
-              <h2 class="textCenter">+<br>Odd position?</h2>
-              <div class="anesthesiaGrid solidbox">
-                <div>E011C</div><div>Prone position (+4U)</div>
-                <div>E024C</div><div>Sitting >60° (+4U)</div>
-              </div>
-
-              <h2 class="textCenter">+<br>Age Extra Units</h2>
-              <div class="anesthesiaGrid solidbox">
-                <div>E014C</div><div>newborn to 28d (5U)</div>
-                <div>E009C</div><div>infant 29d-1y (4U)</div>
-                <div>E019C</div><div>1-8 yr (+2U)</div>
-                <div>E007C</div><div>70-79 yr (+1U)</div>
-                <div>E018C</div><div>+80 yr (+3U)</div>
-              </div>
-            </div>
-    
-            </div>
-        </div>
-
-        <div class="accordion-item">
-          <h4 class="accordion-title"><img src="images/orthoquestion.svg" class="accordionLogo">Other Anesthesia Codes</h4>
-          <div class="accordion-answer">
-            <div>
-                
-    
-              <div class="anesthesiaGrid">
-                
-                <div>E023C</div><div>EUA C V 6 baseM</div>
-                <div>E002C</div><div>w hypothermia (25U Base)M</div>
-                <div>E013C</div><div>anaes mgt of acute upper airway obstruction (10U Base) M</div>
-              </div>
-            </div>
-    
-            </div>
-        </div>
-        
-      </div>
-    
-      </div>
-  
   </div>
 
 
@@ -1156,312 +1159,314 @@
 
   <!--- F & D Codes -->
 
-  <div id="fandDcodes">
+  <div class="accordion">
+    <div id="fandDcodes">
 
-    <!--
-    <div class="navigationButtons" id="fandDcodes">
-      <a href="#assessmentCodes"><button class="diagnosisButton">
-          <h2>Assessment Codes</h2>
-        </button></a>
-        <a href="#sedationCodes"><button class="diagnosisButton">
-          <h2>Sedation Codes</h2></button></a>
-      <a href="#fandDcodes"><button class="diagnosisButton">
-          <h2>F@#! & D Codes</h2>
-        </button></a>
-      <a href="#diagnosticCodes"><button class="diagnosisButton">
-          <h2>Diagnostic Codes</h2>
-        </button></a>
-    </div>
+      <!--
+      <div class="navigationButtons" id="fandDcodes">
+        <a href="#assessmentCodes"><button class="diagnosisButton">
+            <h2>Assessment Codes</h2>
+          </button></a>
+          <a href="#sedationCodes"><button class="diagnosisButton">
+            <h2>Sedation Codes</h2></button></a>
+        <a href="#fandDcodes"><button class="diagnosisButton">
+            <h2>F@#! & D Codes</h2>
+          </button></a>
+        <a href="#diagnosticCodes"><button class="diagnosisButton">
+            <h2>Diagnostic Codes</h2>
+          </button></a>
+      </div>
 
-  -->
-
-
-    <div class="accordion" id="msk">
-
-      <h1 class="textCenter textWhite" id="subTitle">F@#! & D Codes</h1>
-
-      <div class="interiorbox">
-        
-        <div class="accordion-item">
-          <h4 class="accordion-title"><img src="images/hand.svg" class="accordionLogo">Hand/Carpal</h4>
-          <div class="accordion-answer">
-            <div class="grid">
-              <div>F004</div>
-              <div><b>Phalanx #</b> - no reduction $49.20</div>
-              <div>F005</div>
-              <div class="indent">&#8627 w closed reduction $99.25</div>
-              <div>E558</div>
-              <div class="indent">&#8627 each additional $22.25</div>
-              <div>F007</div>
-              <div class="indent">&#8627 open # phalanx $298.45</div>
-              <div>D001</div>
-              <div><b>Finger dislocation</b> $57.50</div>
-              <div>E576</div>
-              <div class="indent">&#8627 each additional $10.25</div>
-              <div>D003</div>
-              <div class="indent">&#8627 open finger dislocation $196.50</div>
-              <div>F008</div>
-              <div><b>Metacarpal #</b> $49.20</div>
-              <div>F009</div>
-              <div class="indent">&#8627 w closed reduction $99.25</div>
-              <div>E504</div>
-              <div class="indent">&#8627 each additional $22.20</div>
-              <div>D004</div>
-              <div><b>MCP dislocation</b> $57.50</div>
-              <div>E577</div>
-              <div class="indent">&#8627 each additional $10.25</div>
-              <div>F006</div>
-              <div><b>Intrarticular MCP #</b> - closed reduction $119.75</div>
-              <div>E503</div>
-              <div class="indent">&#8627 each additional add - 26.85</div>
-              <div>F012</div>
-              <div><b>Bennett #</b><button class="btn" data-target="#bennetfracture"><img class="icon"
-                    src="images/info.svg"></button> $49.20</div>
-              <div>F013</div>
-              <div class="indent">&#8627 w closed reduction $119.80</div>
-              <div>F102</div>
-              <div><b>Carpus #</b> $49.20</div>
-              <div>F016</div>
-              <div class="indent">&#8627 w closed reduction $115.10</div>
-              <div>D007</div>
-              <div><b>Carpal dislocation</b> w closed reduction $128.05</div>
-              <div>D006</div>
-              <div class="indent">&#8627 open MCP dislocation $181.85</div>
-              <div>F018</div>
-              <div><b>Scaphoid #</b> $49.20</div>
-              <div>R629</div>
-              <div>Revision of <b>fingertip amputation</b> $241.55</div>
-            </div>
-
-            <div class="solidbox">
-              <h4>Tendon Repair</h4>
-                <div class="grid">
-                  <div>R578</div>
-                  <div>Suture <b>extensor tendon</b> $164.10</div>
-                  <div>E580</div>
-                  <div class="indent">&#8627 each additional $70.95</div>
-                  <div>R585</div>
-                  <div>Suture <b>flexor tendon</b> $307.60</div>
-                  <div>E581</div>
-                  <div class="indent">&#8627 each additional $128.95</div>
-                </div>
-            </div>
-          </div>
-        </div>
+    -->
 
 
-        <div class="accordion-item">
-          <h4 class="accordion-title"><img src="images/wristAndElbow.svg" class="accordionLogo">Wrist/Foream/Elbow</h4>
-          <div class="accordion-answer">
-            <div class="grid">
-              <div>F029</div>
-              <div><b>Epicondyle #</b> $67.75</div>
-              <div>F037</div>
-              <div class="indent">&#8627 w closed reduction $126.25</div>
-              <div>F039</div>
-              <div><b>Transcondylar #</b> $67.75</div>
-              <div>F040</div>
-              <div class="indent">&#8627 w closed reduction $298.35</div>
-              <div>F034</div>
-              <div><b>Olecranon #</b> $126.25</div>
-              <div>F035</div>
-              <div class="indent">&#8627 w closed reduction $129.00</div>
-              <div>F024</div>
-              <div><b>Radius & ulna #</b> $67.75</div>
-              <div>F025</div>
-              <div class="indent">&#8627 w closed reduction $148.50f</div>
-              <div>F031</div>
-              <div><b>Radius or ulna #</b> $81.30</div>
-              <div>F032</div>
-              <div class="indent">&#8627 w closed reduction $117.85</div>
-              <div>F027</div>
-              <div><b>Distal radius #</b> $67.75</span></div>
-              <div>F028</div>
-              <div class="indent">&#8627 w closed reduction $109.45</div>
-              <div>F046</div>
-              <div class="indent"> &#8627 with <i>sedation</i> $149.35</div>
-              <div>D009</div>
-              <div><b>Dislocated elbow</b> $84.45</div>
-              <div>D012</div>
-              <div><b>Radial head dislocation/"pulled elbow"</b> $39.00</div>
-              <div>Z226</div>
-              <div>I&D Bursa $97.35 </div>
-            </div>
-          </div>
-        </div>
+      <div class="accordion" id="msk">
 
-        <div class="accordion-item">
-          <h4 class="accordion-title"><img src="images/shoulder.svg" class="accordionLogo">Shoulder/Humerus</h4>
-          <div class="accordion-answer" id="shoulderBackground">
-            <div class="grid">
-              <div>F047</div>
-              <div><b>Tuberosity #</b> - no reuduction</b> $67.80</div>
-              <div>F048</div>
-              <div class="indent">&#8627 w closed reduction $117.85</div>
-              <div>F053</div>
-              <div><span class="thick"><b>Humerus neck #</b></span> $67.80</div>
-              <div>F054</div>
-              <div class="indent">&#8627 w closed reduction $133.60</div>
-              <div>F050</div>
-              <div><b> Humerus neck # w head dislocation</b> $67.80</div>
-              <div>F051</div>
-              <div class="indent">&#8627 w closed reduction $183.80</div>
-              <div>F042</div>
-              <div><b>Humerus shaft #</b> - no reduction$67.80</div>
-              <div>F043</div>
-              <div class="indent">&#8627 w closed reduction with <i>sedation</i>>$147.60</div>
-              <div>F110</div>
-              <div><b>Clavicle #</b> - with closed reduction $62.20</div>
-              <div>F119</div>
-              <div><b>Scapula #</b> $67.80</div>
-              <div>F120</div>
-              <div class="indent">&#8627 w closed reduction $112.55</div>
-              <div>F123</div>
-              <div><b>Sternum #</b> - with closed reduction $115.95</div>
-              <div>D014</div>
-              <div><b>Sterno-clavicular dislocation</b> - no reduction</div>
-              <div>D014</div>
-              <div><b>AC joint dislocation</b> - no reduction $67.80</div>
-              <div>D025</div>
-              <div class="indent">&#8627 w closed reduction $134.55</li>
+        <h1 class="textCenter textWhite" id="subTitle">F@#! & D Codes</h1>
+
+        <div class="interiorbox">
+          
+          <div class="accordion-item">
+            <h4 class="accordion-title"><img src="images/hand.svg" class="accordionLogo">Hand/Carpal</h4>
+            <div class="accordion-answer">
+              <div class="grid">
+                <div>F004</div>
+                <div><b>Phalanx #</b> - no reduction $49.20</div>
+                <div>F005</div>
+                <div class="indent">&#8627 w closed reduction $99.25</div>
+                <div>E558</div>
+                <div class="indent">&#8627 each additional $22.25</div>
+                <div>F007</div>
+                <div class="indent">&#8627 open # phalanx $298.45</div>
+                <div>D001</div>
+                <div><b>Finger dislocation</b> $57.50</div>
+                <div>E576</div>
+                <div class="indent">&#8627 each additional $10.25</div>
+                <div>D003</div>
+                <div class="indent">&#8627 open finger dislocation $196.50</div>
+                <div>F008</div>
+                <div><b>Metacarpal #</b> $49.20</div>
+                <div>F009</div>
+                <div class="indent">&#8627 w closed reduction $99.25</div>
+                <div>E504</div>
+                <div class="indent">&#8627 each additional $22.20</div>
+                <div>D004</div>
+                <div><b>MCP dislocation</b> $57.50</div>
+                <div>E577</div>
+                <div class="indent">&#8627 each additional $10.25</div>
+                <div>F006</div>
+                <div><b>Intrarticular MCP #</b> - closed reduction $119.75</div>
+                <div>E503</div>
+                <div class="indent">&#8627 each additional add - 26.85</div>
+                <div>F012</div>
+                <div><b>Bennett #</b><button class="btn" data-target="#bennetfracture"><img class="icon"
+                      src="images/info.svg"></button> $49.20</div>
+                <div>F013</div>
+                <div class="indent">&#8627 w closed reduction $119.80</div>
+                <div>F102</div>
+                <div><b>Carpus #</b> $49.20</div>
+                <div>F016</div>
+                <div class="indent">&#8627 w closed reduction $115.10</div>
+                <div>D007</div>
+                <div><b>Carpal dislocation</b> w closed reduction $128.05</div>
+                <div>D006</div>
+                <div class="indent">&#8627 open MCP dislocation $181.85</div>
+                <div>F018</div>
+                <div><b>Scaphoid #</b> $49.20</div>
+                <div>R629</div>
+                <div>Revision of <b>fingertip amputation</b> $241.55</div>
               </div>
-              <div>D015</div>
-              <div><b>Shoulder disloation</b> w/o ansesthesia $49.20</div>
-              <div>D016</div>
-              <div class="indent">&#8627 with <i>sedation</i> $111.40</div>
+
+              <div class="solidbox">
+                <h4>Tendon Repair</h4>
+                  <div class="grid">
+                    <div>R578</div>
+                    <div>Suture <b>extensor tendon</b> $164.10</div>
+                    <div>E580</div>
+                    <div class="indent">&#8627 each additional $70.95</div>
+                    <div>R585</div>
+                    <div>Suture <b>flexor tendon</b> $307.60</div>
+                    <div>E581</div>
+                    <div class="indent">&#8627 each additional $128.95</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h4 class="accordion-title"><img src="images/wristAndElbow.svg" class="accordionLogo">Wrist/Foream/Elbow</h4>
+            <div class="accordion-answer">
+              <div class="grid">
+                <div>F029</div>
+                <div><b>Epicondyle #</b> $67.75</div>
+                <div>F037</div>
+                <div class="indent">&#8627 w closed reduction $126.25</div>
+                <div>F039</div>
+                <div><b>Transcondylar #</b> $67.75</div>
+                <div>F040</div>
+                <div class="indent">&#8627 w closed reduction $298.35</div>
+                <div>F034</div>
+                <div><b>Olecranon #</b> $126.25</div>
+                <div>F035</div>
+                <div class="indent">&#8627 w closed reduction $129.00</div>
+                <div>F024</div>
+                <div><b>Radius & ulna #</b> $67.75</div>
+                <div>F025</div>
+                <div class="indent">&#8627 w closed reduction $148.50f</div>
+                <div>F031</div>
+                <div><b>Radius or ulna #</b> $81.30</div>
+                <div>F032</div>
+                <div class="indent">&#8627 w closed reduction $117.85</div>
+                <div>F027</div>
+                <div><b>Distal radius #</b> $67.75</span></div>
+                <div>F028</div>
+                <div class="indent">&#8627 w closed reduction $109.45</div>
+                <div>F046</div>
+                <div class="indent"> &#8627 with <i>sedation</i> $149.35</div>
+                <div>D009</div>
+                <div><b>Dislocated elbow</b> $84.45</div>
+                <div>D012</div>
+                <div><b>Radial head dislocation/"pulled elbow"</b> $39.00</div>
+                <div>Z226</div>
+                <div>I&D Bursa $97.35 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h4 class="accordion-title"><img src="images/shoulder.svg" class="accordionLogo">Shoulder/Humerus</h4>
+            <div class="accordion-answer" id="shoulderBackground">
+              <div class="grid">
+                <div>F047</div>
+                <div><b>Tuberosity #</b> - no reuduction</b> $67.80</div>
+                <div>F048</div>
+                <div class="indent">&#8627 w closed reduction $117.85</div>
+                <div>F053</div>
+                <div><span class="thick"><b>Humerus neck #</b></span> $67.80</div>
+                <div>F054</div>
+                <div class="indent">&#8627 w closed reduction $133.60</div>
+                <div>F050</div>
+                <div><b> Humerus neck # w head dislocation</b> $67.80</div>
+                <div>F051</div>
+                <div class="indent">&#8627 w closed reduction $183.80</div>
+                <div>F042</div>
+                <div><b>Humerus shaft #</b> - no reduction$67.80</div>
+                <div>F043</div>
+                <div class="indent">&#8627 w closed reduction with <i>sedation</i>>$147.60</div>
+                <div>F110</div>
+                <div><b>Clavicle #</b> - with closed reduction $62.20</div>
+                <div>F119</div>
+                <div><b>Scapula #</b> $67.80</div>
+                <div>F120</div>
+                <div class="indent">&#8627 w closed reduction $112.55</div>
+                <div>F123</div>
+                <div><b>Sternum #</b> - with closed reduction $115.95</div>
+                <div>D014</div>
+                <div><b>Sterno-clavicular dislocation</b> - no reduction</div>
+                <div>D014</div>
+                <div><b>AC joint dislocation</b> - no reduction $67.80</div>
+                <div>D025</div>
+                <div class="indent">&#8627 w closed reduction $134.55</li>
+                </div>
+                <div>D015</div>
+                <div><b>Shoulder disloation</b> w/o ansesthesia $49.20</div>
+                <div>D016</div>
+                <div class="indent">&#8627 with <i>sedation</i> $111.40</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="accordion-item">
-        <h4 class="accordion-title"><img src="images/hip.svg" class="accordionLogo">Hip & Femur</h4>
-        <div class="accordion-answer">
-          <div class="grid">
-            <div>F098</div>
-            <div><b>Hip #</b> - neck, trochanteric, subtrochanteric - <u> with closed reduction/traction</u> $426.90
+        <div class="accordion-item">
+          <h4 class="accordion-title"><img src="images/hip.svg" class="accordionLogo">Hip & Femur</h4>
+          <div class="accordion-answer">
+            <div class="grid">
+              <div>F098</div>
+              <div><b>Hip #</b> - neck, trochanteric, subtrochanteric - <u> with closed reduction/traction</u> $426.90
+              </div>
+              <div>D042</div>
+              <div><b>Hip dislocation</b> - closed reduction $268.25</div>
+              <div>F094</div>
+              <div><b>Femur #</b> - shaft reduction - child - <u>with traction</u> $258.00</div>
+              <div>F095</div>
+              <div class="indent">&#8627 adult - <u>with traction</u> $407.35</div>
             </div>
-            <div>D042</div>
-            <div><b>Hip dislocation</b> - closed reduction $268.25</div>
-            <div>F094</div>
-            <div><b>Femur #</b> - shaft reduction - child - <u>with traction</u> $258.00</div>
-            <div>F095</div>
-            <div class="indent">&#8627 adult - <u>with traction</u> $407.35</div>
-          </div>
 
-          <div class="infoSection">
-            <p><img class="icon" src="images/checkMark.svg">G260 <b>3-in-1 hip block</b> $80<button class="btn"
-                data-target="#G260"><img class="icon" src="images/info.svg"></button></p>
-            <p><img class="icon" src="images/checkMark.svg">G060 <b>Femoral n. block, Fascia iliaca block</b> $50<button
-                class="btn" data-target="#G060"><img class="icon" src="images/info.svg"></button></p>
+            <div class="infoSection">
+              <p><img class="icon" src="images/checkMark.svg">G260 <b>3-in-1 hip block</b> $80<button class="btn"
+                  data-target="#G260"><img class="icon" src="images/info.svg"></button></p>
+              <p><img class="icon" src="images/checkMark.svg">G060 <b>Femoral n. block, Fascia iliaca block</b> $50<button
+                  class="btn" data-target="#G060"><img class="icon" src="images/info.svg"></button></p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="accordion-item">
-        <h4 class="accordion-title"><img src="images/knee.svg" class="accordionLogo">Knee/Tib/Fib</h4>
-        <div class="accordion-answer">
-          <div class="grid">
-            <div>F085</div>
-            <div><b>Patella #</b> $67.75 </div>
-            <div>D040</div>
-            <div><b>Patella dislocation</b> $62.20 </div>
-            <div>D031</div>
-            <div class="indent">&#8627 with <i>sedation</i> $97.35 </div>
+        <div class="accordion-item">
+          <h4 class="accordion-title"><img src="images/knee.svg" class="accordionLogo">Knee/Tib/Fib</h4>
+          <div class="accordion-answer">
+            <div class="grid">
+              <div>F085</div>
+              <div><b>Patella #</b> $67.75 </div>
+              <div>D040</div>
+              <div><b>Patella dislocation</b> $62.20 </div>
+              <div>D031</div>
+              <div class="indent">&#8627 with <i>sedation</i> $97.35 </div>
 
-            <div>D038</div>
-            <div><b>Knee dislocation</b> - w closed reduction $207.90 </div>
-            <div>F078</div>
-            <div><b>Tib +/- fib #</b> $115.95 </div>
-            <div>F079</div>
-            <div class="indent">&#8627 w closed reduction</b> $180.05 </div>
-            <div>F082</div>
-            <div><b>Fib #</b> - no reduction $67.75 </div>
-            <div>F083</div>
-            <div class="indent">&#8627 w closed reduction</b> $101.25</div>
+              <div>D038</div>
+              <div><b>Knee dislocation</b> - w closed reduction $207.90 </div>
+              <div>F078</div>
+              <div><b>Tib +/- fib #</b> $115.95 </div>
+              <div>F079</div>
+              <div class="indent">&#8627 w closed reduction</b> $180.05 </div>
+              <div>F082</div>
+              <div><b>Fib #</b> - no reduction $67.75 </div>
+              <div>F083</div>
+              <div class="indent">&#8627 w closed reduction</b> $101.25</div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="accordion-item">
-        <h4 class="accordion-title"><img src="images/ankle.svg" class="accordionLogo">Foot/Ankle</h4>
-        <div class="accordion-answer">
-          <div class="grid">
-            <div>F074</div><div><b>Ankle #</b> $67.75</div>
-            <div>F075</div><div class="indent">&#8627 w closed reduction $144.80</div>
-            <div>F104</div><div class="indent">&#8627 with tibial Plafond burst - closed reduction $242.25</div>
-            <div>D035</div><div><b>Ankle disloc</b> w closed reduction $111.35</div>
-            <div>F061</div><div><b>Metatarsal #</b> $49.20</div>
-            <div>F062</div><div class="indent">&#8627 w immobilization $67.75</div>
-            <div>F063</div><div class="indent">&#8627 w closed reduction $98.35</div>
-            <div>D030</div><div><b>MTP dislocation</b> $57.50</div>
-            <div>E579</div><div class="indent">&#8627 each additional $10.25</div>
-    
-            <div>F070</div><div><b>Os calcis #</b> $97.35</div>
-            <div>F071</div><div class="indent">&#8627 w closed reduction $161.45</div>
+        <div class="accordion-item">
+          <h4 class="accordion-title"><img src="images/ankle.svg" class="accordionLogo">Foot/Ankle</h4>
+          <div class="accordion-answer">
+            <div class="grid">
+              <div>F074</div><div><b>Ankle #</b> $67.75</div>
+              <div>F075</div><div class="indent">&#8627 w closed reduction $144.80</div>
+              <div>F104</div><div class="indent">&#8627 with tibial Plafond burst - closed reduction $242.25</div>
+              <div>D035</div><div><b>Ankle disloc</b> w closed reduction $111.35</div>
+              <div>F061</div><div><b>Metatarsal #</b> $49.20</div>
+              <div>F062</div><div class="indent">&#8627 w immobilization $67.75</div>
+              <div>F063</div><div class="indent">&#8627 w closed reduction $98.35</div>
+              <div>D030</div><div><b>MTP dislocation</b> $57.50</div>
+              <div>E579</div><div class="indent">&#8627 each additional $10.25</div>
       
-            <div>F066</div><div><b>Tarsus #</b> excluding os $98.10<button class="btn" data-target="#F066"><img class="icon" src="images/info.svg"></button></div>
-            <div>F067</div><div class="indent">&#8627 w closed reduction $165.20</div>
-            <div>D033</div><div><b>Tarsus dislocation</b> w closed $147.60</div>
-            
-            <div>F056</div><div><b>Phalanx #</b> no reduction, ridig immobilization $49.20</div>
-            <div>E560</div><div class="indent">&#8627 each additional $12.05</div>
-            <div>F060</div><div><b>Phalanx #</b> - open reduction $172.30</div>
-            <div>F058</div><div class="indent">&#8627 closed reduction - one $72.35</div>
-            <div>E561</div><div class="indent">&#8627 each additional $14.90</div>
-            <div>F057</div><div><b>IP Joint intrarticular #</b> - closed reduction $77.95</div>
-            <div>D027</div><div class="indent">&#8627 w closed reduction $57.50</div>
-            <div>E578</div><div class="indent">&#8627 each additional $10.25</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-        <h4 class="accordion-title"><img src="images/cast.svg" class="accordionLogo">Casts</h4>
-        <div class="accordion-answer">
-          <div class="grid">
-            <div>Z204</div>
-            <div>Cast removal $10.25</div>
-            <div>Z201</div>
-            <div>Finger $10.25</div>
-            <div>Z202</div>
-            <div>Hand $14.90</div>
-            <div>Z203</div>
-            <div>Forearm/wrist $24.10</div>
-            <div>Z198</div>
-            <div>Toes $10.25</div>
-            <div>Z213</div>
-            <div>Below knee/knee splints $24.10</div>
-            <div>Z211</div>
-            <div>Whole leg $28.80</div>
-            <div>Z208</div>
-            <div>Shoulder Spica $97.35</div>
-
-
-            <div>Z204</div>
-            <div>Cast removal $10.25</div>
-          </div>
-          <div class="infoSection">
-            <p><img class="icon" src="images/checkMark.svg">Do not bill with F or w/in 2 weeks of F code.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-        <h4 class="accordion-title"><img src="images/orthoquestion.svg" class="accordionLogo">Other MSK</h4>
-        <div class="accordion-answer">
-          <div class="grid">
-            <div>G370</div>
-            <div><b>Injection/aspiration</b> of joint/bursa $19.90</div>
-            <div>G328</div>
-            <div><b>Aspiration</b> of complex joint +/- injection $39.80<ul class="subtext">
-                <li>Not knee</li>
-              </ul>
+              <div>F070</div><div><b>Os calcis #</b> $97.35</div>
+              <div>F071</div><div class="indent">&#8627 w closed reduction $161.45</div>
+        
+              <div>F066</div><div><b>Tarsus #</b> excluding os $98.10<button class="btn" data-target="#F066"><img class="icon" src="images/info.svg"></button></div>
+              <div>F067</div><div class="indent">&#8627 w closed reduction $165.20</div>
+              <div>D033</div><div><b>Tarsus dislocation</b> w closed $147.60</div>
+              
+              <div>F056</div><div><b>Phalanx #</b> no reduction, ridig immobilization $49.20</div>
+              <div>E560</div><div class="indent">&#8627 each additional $12.05</div>
+              <div>F060</div><div><b>Phalanx #</b> - open reduction $172.30</div>
+              <div>F058</div><div class="indent">&#8627 closed reduction - one $72.35</div>
+              <div>E561</div><div class="indent">&#8627 each additional $14.90</div>
+              <div>F057</div><div><b>IP Joint intrarticular #</b> - closed reduction $77.95</div>
+              <div>D027</div><div class="indent">&#8627 w closed reduction $57.50</div>
+              <div>E578</div><div class="indent">&#8627 each additional $10.25</div>
             </div>
-            <div>E556</div>
-            <div>'Extensive' <b>debridement of open #</b> +40% to F</div>
-            <div>G465</div>
-            <div>Joint manipulation w <i>sedation</i> $13.80</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h4 class="accordion-title"><img src="images/cast.svg" class="accordionLogo">Casts</h4>
+          <div class="accordion-answer">
+            <div class="grid">
+              <div>Z204</div>
+              <div>Cast removal $10.25</div>
+              <div>Z201</div>
+              <div>Finger $10.25</div>
+              <div>Z202</div>
+              <div>Hand $14.90</div>
+              <div>Z203</div>
+              <div>Forearm/wrist $24.10</div>
+              <div>Z198</div>
+              <div>Toes $10.25</div>
+              <div>Z213</div>
+              <div>Below knee/knee splints $24.10</div>
+              <div>Z211</div>
+              <div>Whole leg $28.80</div>
+              <div>Z208</div>
+              <div>Shoulder Spica $97.35</div>
+
+
+              <div>Z204</div>
+              <div>Cast removal $10.25</div>
+            </div>
+            <div class="infoSection">
+              <p><img class="icon" src="images/checkMark.svg">Do not bill with F or w/in 2 weeks of F code.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h4 class="accordion-title"><img src="images/orthoquestion.svg" class="accordionLogo">Other MSK</h4>
+          <div class="accordion-answer">
+            <div class="grid">
+              <div>G370</div>
+              <div><b>Injection/aspiration</b> of joint/bursa $19.90</div>
+              <div>G328</div>
+              <div><b>Aspiration</b> of complex joint +/- injection $39.80<ul class="subtext">
+                  <li>Not knee</li>
+                </ul>
+              </div>
+              <div>E556</div>
+              <div>'Extensive' <b>debridement of open #</b> +40% to F</div>
+              <div>G465</div>
+              <div>Joint manipulation w <i>sedation</i> $13.80</div>
+            </div>
           </div>
         </div>
       </div>
@@ -1509,6 +1514,7 @@
               <li>Anemia 285</li>
               <li>Coag disorder 287</li>
               <li>WBC abnormal 288</li>
+            </ul>
 
         </div>
 
@@ -1644,6 +1650,7 @@
             <li>Social Problems 909</li>
           </ul>
         </div>
+
         <div class="diagnosisCard" id="resp">
           <h4>Respiratory System 519</h4>
           <ul>
