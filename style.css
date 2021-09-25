@@ -639,7 +639,24 @@ b {
   text-align: center;
   background-color: black;
   color: white;
-  margin-top: 0rem;
+  margin-top: 0.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 7px;
+}
+
+#delivery {
+  border-style: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 5px;
+
+  background-image: linear-gradient(
+    to right top,
+    #e1b2e1,
+    #e1b5e4,
+    #e1b8e7,
+    #e0baea,
+    #e0bded
+  );
 }
