@@ -627,10 +627,12 @@ b {
 
 .stickyFooter {
   position: sticky;
-  bottom: 5px;
+  bottom: 0px;
   margin: 0 auto;
   color: black;
   text-align: center;
+  background-color: white;
+  padding-bottom: 5px;
 }
 
 .stickyFooter button {
