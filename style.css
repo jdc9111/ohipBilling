@@ -208,6 +208,10 @@ ul.modal-list {
   padding-bottom: 3px;
 }
 
+#mdCalc {
+  width: 2rem;
+}
+
 .greenBackground {
   background-color: var(--green);
   color: white;
@@ -218,7 +222,7 @@ ul.modal-list {
   background-color: rgb(149, 211, 250);
   color: rgb(15, 13, 13);
   border-radius: 4px;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 
 .yellowBackground {
