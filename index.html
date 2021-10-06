@@ -178,7 +178,7 @@
             
           </div>
         </div>
-        <div class="grid">
+        <div class="grid id="periMortem">
           <div>E420</div>
           <div><b>Trauma Premium</b> +50%<button class="btn" data-target="#E420"><img class="icon"
                 src="images/info.svg"></button></div>
@@ -216,9 +216,10 @@
           </div>
         </div>
 
-        <div class="infoSection">
-          <p><img class="icon" src="images/checkMark.svg">E420 - Trauma Premium +50%<button class="btn"
-              data-target="#E420"><img class="icon" src="images/info.svg"></button>
+        <div class="grid" id="infoSection">
+          <div id="checkmark"><img class="icon" src="images/checkMark.svg"></div>
+          <div> E420Trauma Premium +50%<button class="btn"
+              data-target="#E420"><img class="icon" src="images/info.svg"></button></div>
         </div>
       </div>
     </div>
@@ -1449,8 +1450,9 @@
               <div>Z204</div>
               <div>Cast removal $10.25</div>
             </div>
-            <div class="infoSection">
-              <p><img class="icon" src="images/checkMark.svg">Do not bill with F or w/in 2 weeks of F code.</p>
+            <div class="grid" id="infoSection">
+              <div id="checkmark"><img class="icon" src="images/checkMark.svg"></div>
+              <div>Do not bill with F or w/in 2 weeks of F code.</div>
             </div>
           </div>
         </div>
@@ -1664,25 +1666,25 @@
             <li>Pneumonia 486</li>
           </ul>
         </div>
+
+
         <div class="diagnosisCard">
-          <h4>Skin & Subcutaneous Tissues 709</h4>
-          <ul>
-            <li>Abrasion, Bruise, crush 919<li></li>
-            <li>Abscess 493</li>
-            <li>Bite 919</li>
-            <li>Cellulitis 682</li>
-            <li>Hives 496</li>
-            <li>Rash 691</li>
-            <li>Burn 949</li>
-            <li>Zoster 539</li>
-          </ul>
+          <button class="btn" data-target="#skinCard">
+          <h4>709</h4>
+          <h4>Skin & Subcutaneous Tissues</h4>
+        </button>
         </div>
+
+
+
         <div class="diagnosisCard" id="teeth">
-          <h4>Teeth & Supporting Tissues 525</h4>
+          <h4>525</h4>
+          <h4>Teeth & Supporting Tissues</h4>
         </div>
 
         <div class="diagnosisCard" id="urine">
-          <h4>Urinary Tract 599</h4>
+          <h4>599</h4>
+          <h4>Urinary Tract</h4>
           <ul>
             <li>UTI 595</li>
             <li>Renal Colic/Urinary Retention 788</li>
@@ -2312,8 +2314,32 @@
       </div>
     </div>
 
+    <!-- diagnostic modals -->
+    
+
 
     <div id="overlay"></div>
+
+    <div class="modal" id="skinCard">
+      <div class="header">
+        <div class="modal-title">Skin/Derm</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body small-text">
+        <ul>
+          <li>919 Abrasion, bruise, bite, FB</li>
+          <li>680 Abcess</li>
+          <li>949 Burn</li>
+          <li>682 Cellulitis</li>
+          <li>684 Impetigo</li>
+          <li>910 Insect bite</li>
+          <li>691 Rash</li>
+          <li>112 Candida</li>
+          <li>708 Uriticaria</li>
+          <li>539 Zoster</li>
+        </ul>
+      </div>
+    </div>
 
 
 
