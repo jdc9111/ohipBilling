@@ -3,7 +3,7 @@
   border-radius: none;
   cursor: pointer;
   outline: none;
-  background-color: transparent;`
+  background-color: transparent;
 }
 
 .btn:active {
@@ -51,8 +51,6 @@
   padding-left: 1rem;
   padding-bottom: 1.5rem;
   padding-right: 1rem;
-  
-
 }
 
 #overlay {
@@ -77,6 +75,8 @@
   max-width: 800px;
   max-height: 55vh;
 }
-#blood, #heart, #laceration {
+#blood,
+#heart,
+#laceration {
   background-color: rgb(231, 104, 104);
 }
