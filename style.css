@@ -666,3 +666,6 @@ b {
 .cardButton:active {
   transform: scale(0.9);
 }
+#hand {
+  background-color: #ee9db4;
+}
