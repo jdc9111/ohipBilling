@@ -461,9 +461,6 @@ b {
 
 #sedation {
   background-color: var(--lightBlue);
-  padding-bottom: 3rem;
-  margin-bottom: 3rem;
-
   background-image: linear-gradient(
     to right top,
     #b7d8ec,
@@ -472,9 +469,6 @@ b {
     #5db1e8,
     #33a3e7
   );
-  border-radius: 20px 20px 20px 20px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .footer {
